@@ -1,0 +1,55 @@
+type: mech
+name: EXO-45 Patriot
+description: Equipped with a gatling gun and a rocket launcher.
+speed: 0.35
+flying: false
+health: 2000
+armor: 7
+hitSize: 11
+  weapons: [
+    {
+      x: 9
+      name: patriot-rocket-launcher
+        y: 0
+        reload: 300
+        rotate: false
+        mirror: false
+        inaccuracy: 1
+        velocityRnd: 0.3
+        shootSound: missileLarge
+        bullet: {
+          type: MissileBulletType
+            speed: 4
+            lifetime: 300
+            damage: 400
+            splashDamageRadius: 16
+            splashDamage: 50
+            width: 6
+            height: 8
+            trailChance: -1
+            trailEffect: missileTrail
+        }
+    }
+    {    
+      x: -9
+        y: 0
+        name: patriot-gatling-gun
+        reload: 2
+        mirror: false
+        innacuracy: 3
+        rotate: false
+        shootSound: pew
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 
+            damage: 5
+            splashDamageRadius: 16
+            splashDamage: 50
+            width: 2
+            height: 5
+            trailChance: -1
+            trailEffect: missileTrail
+        }
+    }
+]
