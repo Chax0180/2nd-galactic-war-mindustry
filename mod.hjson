@@ -1,0 +1,12 @@
+name: helldustry
+description:'''
+Adds various things from Helldivers 2 to Mindustry.
+
+WIP as of now.
+'''
+author: Chax0180
+minGameVersion: 146
+version: 0.0.1
+displayName: The 2nd Galactic War
+subtitle: "John Helldiver has been court-martialled."
+repo: "Chax0180/2nd-galactic-war-mindustry"
