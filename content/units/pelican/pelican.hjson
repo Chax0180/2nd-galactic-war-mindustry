@@ -70,6 +70,7 @@ recoil: 0
 noAttack: true
 autotarget: true
 controllable: false
+shadow: 1
         }
 ]
 engines: [
@@ -88,13 +89,13 @@ engines: [
 //engines
   {
     x: -22
-    y: -4
+    y: -8
     radius: 2
     rotation: -90
   }
   {
     x: 22
-    y: -4
+    y: -8
     radius: 2
     rotation: -90
   }
