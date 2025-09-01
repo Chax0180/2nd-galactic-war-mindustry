@@ -42,6 +42,7 @@ hitSize: 11
     shoot: {
       firstShotDelay: 20
       shots: 30
+      shotDelay:2
     }
         bullet: {
           type: BasicBulletType
