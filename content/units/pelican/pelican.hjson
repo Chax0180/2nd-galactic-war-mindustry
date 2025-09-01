@@ -17,7 +17,7 @@ payloadLimit: 4
 weapons: [
     {    
       x: 0
-        y: 10
+        y: 0
         name: pelican-autocannon
         under: true
         reload: 120
@@ -55,6 +55,7 @@ shotDelay: 15
       suffix: -barrel
       mirror: false
       under: true
+        top: true
       progress: recoil
       moveY: -1.5
     }
