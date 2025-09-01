@@ -21,9 +21,9 @@ hitSize: 11
           type: MissileBulletType
             speed: 4
             lifetime: 300
-            damage: 400
-            splashDamageRadius: 16
-            splashDamage: 50
+            damage: 750
+            splashDamageRadius: 40
+            splashDamage: 250
             width: 6
             height: 8
             trailChance: -1
