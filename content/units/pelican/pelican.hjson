@@ -1,4 +1,4 @@
-type: flying
+etype: flying
 lowAltitude: true
 name: Pelican
 description: A muilti-purpose VTOL transport shuttle designed for carrying vehicles and troops.
