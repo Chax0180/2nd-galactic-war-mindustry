@@ -55,7 +55,7 @@ firstShotDelay: 120
       makeFire: false
       lifetime: 30
       despawnEffect: none
-      width: 2
+      width: 10
       height: 0.01
       hittable: false
       smokeEffect: {
