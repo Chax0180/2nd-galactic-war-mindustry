@@ -81,7 +81,6 @@ parts: [
     region: pelican-engine
     x: 0
     y: 12
-    moveRot: false
     progress: rotation
     rotation: 0
     mirror: true
