@@ -18,7 +18,7 @@ loopSoundVolume: 0.15
         rotate: true
         rotationLimit: 15
         mirror: false
-        recoil: 0
+        recoil: 0.4
         inaccuracy: 1
         velocityRnd: 0.3
         shootSound: missileLarge
@@ -50,7 +50,7 @@ loopSoundVolume: 0.15
         inaccuracy: 3
         rotate: true
         rotationLimit: 30
-        recoil: 0
+        recoil: 0.2
         shootSound: shoot
         bullet: {
           type: BasicBulletType
