@@ -15,7 +15,7 @@ loopSoundVolume: 0.15
         y: -2
         name: emancipator-autocannon
         reload: 30
-        recoil: 0
+        recoil: 0.2
         mirror: true
         alternate: true
         inaccuracy: 1
@@ -30,13 +30,13 @@ shotDelay: 15
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 40
+            damage: 50
       pierceArmor: true
       trailChance: -1
       trailLength: 10
       trailWidth: 1
-            splashDamageRadius: 15
-            splashDamage: 15
+            splashDamageRadius: 20
+            splashDamage: 30
             trailChance: -1
             hitEffect: flakExplosion
       hitSound: largeExplosion
