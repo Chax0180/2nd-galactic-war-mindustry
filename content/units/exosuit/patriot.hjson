@@ -25,14 +25,13 @@ loopSoundVolume: 0.15
         bullet: {
           type: MissileBulletType
             speed: 4
-            lifetime: 180
+            lifetime: 120
             damage: 750
             splashDamageRadius: 40
             splashDamage: 250
             trailChance: -1
             trailEffect: missileTrail
             hitEffect: flakExplosion
-            collideTerrain: true
       hitSound: largeExplosion
       frontColor: 474747
       backColor: 383838
