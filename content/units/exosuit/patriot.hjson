@@ -4,6 +4,8 @@ description: A heavily-armored walking exosuit equipped with a rocket launcher a
 speed: 0.35
 flying: false
 health: 2000
+outlineColor: 2b2b2b
+mechLegColor: 565666
 armor: 7
 hitSize: 11
   weapons: [
