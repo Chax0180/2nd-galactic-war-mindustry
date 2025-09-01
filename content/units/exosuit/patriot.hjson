@@ -50,7 +50,7 @@ loopSoundVolume: 0.15
         mirror: false
         inaccuracy: 3
         rotate: true
-        rotationLimit: 15
+        rotationLimit: 30
         shootSound: shoot
         bullet: {
           type: BasicBulletType
