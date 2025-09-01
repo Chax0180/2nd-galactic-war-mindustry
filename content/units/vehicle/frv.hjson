@@ -52,11 +52,11 @@ weapons: [
     soundPitchMin: 1.2
     soundPitchMax: 1.5
     shoot: {
+       type: ShootAlternate
       shotDelay: 6
       shots: 2
       barrels: 2
     }
-
         bullet: {
           type: BasicBulletType
             speed: 10
