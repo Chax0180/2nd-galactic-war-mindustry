@@ -1,6 +1,6 @@
 type: mech
 name: "EXO-45 Patriot"
-description: A heavily-armored walking exosuit equipped with a rocket launcher and heavy machine gun. Produced by Morgunson.
+description: A heavily-armored walking exomech equipped with a rocket launcher and heavy machine gun. Produced by Morgunson.
 speed: 0.35
 flying: false
 health: 1250
