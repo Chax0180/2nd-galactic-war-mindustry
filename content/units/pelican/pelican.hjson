@@ -19,7 +19,7 @@ weapons: [
       x: 0
         y: 0
         name: pelican-autocannon
-        layerOffset: 2
+        shootY: 4.2
         under: true
         reload: 120
         shootStatus: slow
@@ -47,18 +47,6 @@ shotDelay: 15
             hitEffect: flakExplosion
       hitSound: largeExplosion
         }
-  parts: [
-    {
-      type: RegionPart
-      y: 4.3
-      suffix: -barrel
-      mirror: false
-      under: true
-        top: true
-      progress: recoil
-      moveY: -1.5
-    }
-  ]
     }
 {
 name: pelican-engine
