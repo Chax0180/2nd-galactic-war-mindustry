@@ -2,6 +2,9 @@ type: ItemTurret
 name: Gatling Sentry
 description: An automated turret with an extremely high rate of fire.
 size: 1
+requirements: [
+copper/1
+]
 category: turret
 shootSound: shoot
 targetAir: true
