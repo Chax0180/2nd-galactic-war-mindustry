@@ -29,6 +29,7 @@ hitSize: 11
             splashDamage: 250
             trailChance: -1
             trailEffect: missileTrail
+      hitSound: largeExplosion
         }
     }
     {    
@@ -40,7 +41,7 @@ hitSize: 11
         innacuracy: 5
         rotate: true
         rotationLimit: 15
-        shootSound: mediumCannon
+        shootSound: shoot
         bullet: {
           type: BasicBulletType
             speed: 10
