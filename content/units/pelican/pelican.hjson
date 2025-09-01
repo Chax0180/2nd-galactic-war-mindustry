@@ -66,6 +66,8 @@ x: 26
 y: -2
 rotate: true
 mirror: true
+recoil: 0
+rotationLimit: 30
 continuous: true
 alwaysContinuous: true
         bullet: {
