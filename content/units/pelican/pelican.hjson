@@ -89,12 +89,12 @@ engines: [
   {
     x: -22
     y: -15
-    radius: 2
+    radius: 3
     rotation: -90
   }
   {
     x: 22
-    y: -15
+    y: -13
     radius: 2
     rotation: -90
   }
