@@ -10,6 +10,8 @@ legMoveSpace: 1.2
 legLength: 40
 legExtension: -6
 legBaseOffset: 8
+lockLegBase: true
+legContinuousMove: true
 stepShake: 3
 legLengthScl: 0.93
 rippleScale: 8
