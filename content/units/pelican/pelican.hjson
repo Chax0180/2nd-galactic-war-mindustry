@@ -4,7 +4,7 @@ name: Pelican
 description: A muilti-purpose VTOL transport shuttle designed for carrying vehicles and troops.
 immunities: [burning, wet]
 drag: 0.08
-accel: 0.01
+accel: 0.03
 health: 4000
 armor: 15
 speed: 14
@@ -12,18 +12,22 @@ hitSize: 12
 flying: true
 payloadCapacity: 4
 payloadLimit: 4
-
+weapons: [
+{
+type: pelican-autocannon
+}
+]
 engines: [
   {
     x: 3
-    y: -34
-    radius: 1.5
+    y: -31
+    radius: 1.65
     rotation: -90
   }
   {
     x: -3
-    y: -34
-    radius: 1.5
+    y: -31
+    radius: 1.65
     rotation: -90
   }
 ]
