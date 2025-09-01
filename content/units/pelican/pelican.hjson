@@ -21,8 +21,6 @@ weapons: [
         name: pelican-autocannon
         under: true
         reload: 120
-        controllable: false
-        autoTarget: true
         shootStatus: slow
         recoil: 0.2
         mirror: false
