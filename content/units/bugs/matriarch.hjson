@@ -29,7 +29,7 @@ weapons:[
     y: 10
     rotate: false
     mirror: false
-    reload: 300
+    reload: 180
     shootSound: plantBreak
     soundPitchMin: 0.3
     soundPitchMax: 0.6
@@ -38,7 +38,7 @@ weapons:[
     shootstatus: unmoving
     shootStatusDuration: 240
 shoot: {
-shots: 60
+shots: 20
 shotDelay: 1
 firstShotDelay: 120
 }
