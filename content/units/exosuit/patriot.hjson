@@ -7,6 +7,7 @@ health: 1250
 outlineColor: 2b2b2b
 mechLegColor: 565666
 armor: 7
+immunities: [burning, wet]
 hitSize: 11
 loopSound: combustion
 loopSoundVolume: 0.15
