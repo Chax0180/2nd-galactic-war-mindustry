@@ -15,8 +15,8 @@ legLengthScl: 0.93
 rippleScale: 8
 legSpeed: 0.24
 drag: 0.1
-speed: 0.25
-rotateSpeed: 0.15
+speed: 0.4
+rotateSpeed: 0.6
 hovering: false
 drownTimeMultiplier: 5
 legSplashDamage: 300
