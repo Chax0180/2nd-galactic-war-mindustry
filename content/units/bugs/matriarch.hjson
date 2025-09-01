@@ -46,7 +46,7 @@ firstShotDelay: 120
       damage: 30
       shootEffect: none
       speed: 6
-      recoil: 0.1
+      recoil: 0.3
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
@@ -62,7 +62,7 @@ firstShotDelay: 120
         type: ParticleEffect
           particles: 50
           length: 240
-          lifetime: 36
+          lifetime: 120
           interp: circleOut
           cone: 3
           colorFrom: 68edad
