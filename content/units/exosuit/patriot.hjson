@@ -8,7 +8,7 @@ armor: 7
 hitSize: 11
   weapons: [
     {
-      x: 9
+      x: -9
       name: patriot-rocket-launcher
         y: 0
         reload: 300
@@ -31,14 +31,14 @@ hitSize: 11
         }
     }
     {    
-      x: -9
+      x: 9
         y: 0
         name: patriot-gatling-gun
         reload: 2
         mirror: false
         innacuracy: 3
         rotate: false
-        shootSound: pew
+        shootSound: mediumCannon
         bullet: {
           type: BasicBulletType
             speed: 10
