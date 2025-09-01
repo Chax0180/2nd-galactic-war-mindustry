@@ -34,16 +34,16 @@ weapons:[
     soundPitchMin: 0.3
     soundPitchMax: 0.6
     shootCone: 30
-    inaccuracy: 15
+    inaccuracy: 5
     shootstatus: unmoving
-    shootStatusDuration: 180
+    shootStatusDuration: 240
 shoot: {
 shots: 60
 shotDelay: 1
 firstShotDelay: 120
 }
     bullet: {
-      damage: 50
+      damage: 30
       shootEffect: none
       speed: 6
       pierce: true
@@ -54,7 +54,7 @@ firstShotDelay: 120
       makeFire: false
       lifetime: 30
       despawnEffect: none
-      width: 0.5
+      width: 1
       height: 0.01
       hittable: false
       smokeEffect: {
