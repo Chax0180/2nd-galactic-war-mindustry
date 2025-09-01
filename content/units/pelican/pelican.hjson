@@ -23,6 +23,7 @@ weapons: [
         reload: 120
         controllable: false
         autoTarget: true
+        shootStatus: slowed
         recoil: 0.2
         mirror: false
         inaccuracy: 1
