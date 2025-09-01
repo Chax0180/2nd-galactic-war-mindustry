@@ -34,12 +34,11 @@ weapons:[
     soundPitchMin: 0.3
     soundPitchMax: 0.6
     shootCone: 30
-    inaccuracy: 5
+    inaccuracy: 0
     shootstatus: unmoving
     shootStatusDuration: 240
 shoot: {
-shots: 20
-shotDelay: 1
+shots: 1
 firstShotDelay: 120
 }
     bullet: {
