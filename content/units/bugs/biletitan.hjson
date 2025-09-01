@@ -7,7 +7,7 @@ outlineColor: 5e5030
 armor: 13
 legCount: 4
 legMoveSpace: 1.2
-legLength: 100
+legLength: 50
 legExtension: -17
 legBaseOffset: 8
 stepShake: 3
