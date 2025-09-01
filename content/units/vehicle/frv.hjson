@@ -9,8 +9,8 @@ omniMovement: false
 faceTarget: false
 health: 1750
 armor: 10
-speed: 5
-rotateSpeed: 1
+speed: 2
+rotateSpeed: 3
 itemCapacity: 0
 treadRects: [
   {
