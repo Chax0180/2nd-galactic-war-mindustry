@@ -17,9 +17,11 @@ payloadLimit: 4
 weapons: [
     {    
       x: 0
-        y: 8
+        y: 10
         name: pelican-autocannon
+        top: false
         reload: 120
+        controllable: false
         recoil: 0.2
         mirror: false
         inaccuracy: 1
