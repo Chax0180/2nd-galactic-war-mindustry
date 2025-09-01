@@ -1,0 +1,34 @@
+type: ItemTurret
+name: Gatling Sentry
+description: An automated turret with an extremely high rate of fire.
+size: 1
+category: turret
+shootSound: shoot
+targetAir: true
+targetGround: true
+reload: 3
+range: 160
+velocityRnd: 0.12
+inaccuracy: 5
+shoot: {
+  shots: 3
+  shotDelay: 0.78
+}
+ammoTypes: {
+  01a-01-item-ferrinite: {
+    frontColor: ffffff
+    backColor: 757575
+    trailColor: 757575
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 28
+    splashDamageRadius: 8
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: sentry-
+}
