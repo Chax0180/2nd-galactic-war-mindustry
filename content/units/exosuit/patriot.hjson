@@ -13,7 +13,7 @@ loopSound: combustion
 loopSoundVolume: 0.15
   weapons: [
     {
-      x: -9
+      x: -10
       name: patriot-rockets
         y: 0
         reload: 300
@@ -43,7 +43,7 @@ loopSoundVolume: 0.15
         }
     }
     {    
-      x: 9
+      x: 10
         y: 0
         name: patriot-gatling-gun
         reload: 5
