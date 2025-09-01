@@ -1,0 +1,14 @@
+type: CellLiquid
+name: Hemolymph
+description: An organically versatile compound, produced by insects. Can become corrosive when mixed with certain chemicals.
+temperature: 0.3
+coolant: false
+color: 3ec986
+colorFrom: 3ec986
+colorTo: 319464
+canStayOn: [water]
+explosiveness: 0
+flammability: 0.3
+incinerable: true
+viscosity: 0.65
+spreadTarget: water
