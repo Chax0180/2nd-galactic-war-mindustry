@@ -27,8 +27,6 @@ hitSize: 11
             damage: 750
             splashDamageRadius: 40
             splashDamage: 250
-            width: 6
-            height: 8
             trailChance: -1
             trailEffect: missileTrail
         }
@@ -46,7 +44,7 @@ hitSize: 11
     shoot: {
       firstShotDelay: 20
       shots: 30
-      shotDelay:2
+      shotDelay:5
     }
         bullet: {
           type: BasicBulletType
