@@ -51,7 +51,9 @@ loopSoundVolume: 0.15
         rotate: true
         rotationLimit: 30
         recoil: 0.2
-        shootSound: shoot
+    shootSound: shootBig
+    soundPitchMin: 1.1
+    soundPitchMax: 1.6
         bullet: {
           type: BasicBulletType
             speed: 10
