@@ -1,0 +1,15 @@
+type: CoreBlock
+name: Crude Crash Pod
+description: A crude landing pod. Not designed for takeoff and landing, but will suffice. When destroyed, the sector is lost.
+requirements: [
+copper/1
+]
+isFirstTier: true
+size: 2
+squareSprite: false
+alwaysUnlocked: true
+unitType: alpha
+health: 1250
+itemCapacity: 2000
+unitCapModifier: 6
+category: effect
