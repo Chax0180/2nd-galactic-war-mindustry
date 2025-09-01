@@ -72,7 +72,6 @@ noAttack: true
 autotarget: true
 controllable: false
         }
-}
 ]
 engines: [
   {
