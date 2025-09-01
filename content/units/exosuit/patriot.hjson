@@ -32,6 +32,7 @@ loopSoundVolume: 0.15
             trailChance: -1
             trailEffect: missileTrail
             hitEffect: flakExplosion
+            collideTerrain: true
       hitSound: largeExplosion
       frontColor: 474747
       backColor: 383838
@@ -47,7 +48,7 @@ loopSoundVolume: 0.15
         name: patriot-gatling-gun
         reload: 5
         mirror: false
-        innacuracy: 15
+        inaccuracy: 15
         rotate: true
         rotationLimit: 15
         shootSound: shoot
