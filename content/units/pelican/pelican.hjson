@@ -9,6 +9,8 @@ health: 4000
 armor: 15
 speed: 14
 hitSize: 12
+faceTarget: false
+rotateSpeed: 2.25
 flying: true
 payloadCapacity: 4
 payloadLimit: 4
