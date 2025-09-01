@@ -61,7 +61,7 @@ shotDelay: 15
   ]
     }
 {
-type: pelican-engine
+name: pelican-engine
 x:  30
 y: 4
 mirror: true
@@ -77,13 +77,13 @@ mirror: true
 engines: [
   {
     x: 3
-    y: -31
+    y: -30
     radius: 1.65
     rotation: -90
   }
   {
     x: -3
-    y: -31
+    y: -30
     radius: 1.65
     rotation: -90
   }
