@@ -40,5 +40,15 @@ shotDelay: 15
             hitEffect: flakExplosion
       hitSound: largeExplosion
         }
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -3
+    }
+  ]
     }
 ]
