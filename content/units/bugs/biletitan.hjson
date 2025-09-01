@@ -1,0 +1,64 @@
+type: legs
+name: Bile Titan
+description: A massive bug that crushes structures beneath its feet and vomits corrosive bile on enemies.
+hitSize: 26
+health: 6000
+outlineColor: 5e5030
+armor: 13
+]
+legCount: 4
+legMoveSpace: 1.2
+legLength: 100
+legExtension: -17
+legBaseOffset: 8
+stepShake: 3
+legLengthScl: 0.93
+rippleScale: 8
+legSpeed: 0.24
+drag: 0.1
+speed: 0.25
+rotateSpeed: 0.15
+hovering: false
+drownTimeMultiplier: 5
+legSplashDamage: 300
+legSplashRange: 10
+weapons:[
+  {
+    x: 0
+    y: 35
+    rotate: false
+    mirror: false
+    reload: 10
+    shootSound: flame
+    shootCone: 30
+    inaccuracy: 15
+    bullet: {
+      damage: 50
+      shootEffect: none
+      speed: 6
+      pierce: true
+      pierceBuilding: true
+      ammoMultiplier: 5
+      status: corroded
+      statusDuration: 60
+      makeFire: false
+      lifetime: 30
+      despawnEffect: none
+      width: 0.5
+      height: 0.01
+      hittable: false
+      smokeEffect: {
+        type: ParticleEffect
+          particles: 50
+          length: 240
+          lifetime: 36
+          interp: circleOut
+          cone: 3
+          colorFrom: 84f491
+          colorTo: 62ae7f
+          sizeFrom: 10
+          sizeTo: 0.6
+        }
+     }
+  }
+  ]
