@@ -82,5 +82,12 @@ parts: [
     x: 28
     y: -2
     mirror: true
+   moves: [
+      {
+        type: PartMove
+        progress: rotation
+        rotation: 1
+      }
+    ]
   }
 ]
