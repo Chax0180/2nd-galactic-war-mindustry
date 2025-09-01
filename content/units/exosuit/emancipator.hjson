@@ -43,7 +43,7 @@ shotDelay: 15
   parts: [
     {
       type: RegionPart
-      y: 3
+      y: 4.3
       suffix: -barrel
       mirror: false
       under: true
