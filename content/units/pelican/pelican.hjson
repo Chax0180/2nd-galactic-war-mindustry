@@ -65,6 +65,12 @@ type: pelican-engine
 x: 15
 y:2
 mirror: true
+        controllable: false
+        autoTarget: true
+        recoil: 0
+        mirror: false
+        inaccuracy: 1
+        rotate: true
 }
 ]
 engines: [
