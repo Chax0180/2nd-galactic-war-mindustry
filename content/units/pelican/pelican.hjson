@@ -22,7 +22,6 @@ weapons: [
         shootY: 4.2
         under: true
         reload: 120
-        shootStatus: slow
         recoil: 0.2
         mirror: false
         inaccuracy: 1
@@ -32,6 +31,8 @@ shoot: {
 shots: 3
 shotDelay: 15
 }
+    shootStatus: slow
+    shootStatusDuration: 200
         bullet: {
           type: BasicBulletType
             speed: 10
