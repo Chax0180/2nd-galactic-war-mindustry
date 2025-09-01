@@ -79,10 +79,9 @@ parts: [
   {
     type: RegionPart
     region: pelican-engine
-    x: 0
-    y: 12
+    x: -2
+    y: 28
     progress: rotation
-    rotation: 0
     mirror: true
   }
 ]
