@@ -14,7 +14,8 @@ hitSize: 11
       name: patriot-rockets
         y: 0
         reload: 300
-        rotate: false
+        rotate: true
+        rotationLimit: 15
         mirror: false
         inaccuracy: 1
         velocityRnd: 0.3
@@ -39,7 +40,8 @@ hitSize: 11
         reload: 120
         mirror: false
         innacuracy: 3
-        rotate: false
+        rotate: true
+        rotationLimit: 15
         shootSound: mediumCannon
     shoot: {
       firstShotDelay: 20
