@@ -43,11 +43,12 @@ shotDelay: 15
   parts: [
     {
       type: RegionPart
+      y: 3
       suffix: -barrel
       mirror: false
-      under: false
+      under: true
       progress: recoil
-      moveY: -3
+      moveY: -1.5
     }
   ]
     }
