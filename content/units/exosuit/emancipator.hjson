@@ -35,6 +35,11 @@ shotDelay: 10
       trailChance: -1
       trailLength: 10
       trailWidth: 1
+            splashDamageRadius: 40
+            splashDamage: 250
+            trailChance: -1
+            hitEffect: flakExplosion
+      hitSound: largeExplosion
         }
     }
 ]
