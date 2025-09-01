@@ -78,7 +78,7 @@ engines: [
 parts: [
   {
     type: RegionPart
-    region: engine
+    region: "pelican-engine"
     x: 28
     y: -2
     mirror: true
