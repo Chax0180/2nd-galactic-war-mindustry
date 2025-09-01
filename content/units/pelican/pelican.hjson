@@ -13,7 +13,6 @@ flying: true
 payloadCapacity: 4
 payloadLimit: 4
 weapons: [
-{
     {    
       x: 10
         y: -2
@@ -55,7 +54,6 @@ shotDelay: 15
     }
   ]
     }
-}
 ]
 engines: [
   {
