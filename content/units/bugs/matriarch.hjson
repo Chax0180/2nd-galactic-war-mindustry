@@ -76,6 +76,6 @@ abilities: [
   {
     type: LiquidExplodeAbility
     liquid: hemolymph
-    amount: 360
+    amount: 3600
   }
 ]
