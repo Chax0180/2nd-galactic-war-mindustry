@@ -60,18 +60,7 @@ shotDelay: 15
     }
   ]
     }
-{
-name: pelican-engine
-x: 22
-y: -2
-rotate: false
-mirror: true
-recoil: 0
-noAttack: true
-autotarget: true
-controllable: false
-shadow: 1
-        }
+
 ]
 engines: [
   {
@@ -86,7 +75,6 @@ engines: [
     radius: 1.65
     rotation: -90
   }
-//engines
   {
     x: -22
     y: -8
