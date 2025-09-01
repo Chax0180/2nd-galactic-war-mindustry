@@ -27,8 +27,8 @@ loopSoundVolume: 0.15
             speed: 4
             lifetime: 120
             damage: 750
-            splashDamageRadius: 40
-            splashDamage: 250
+            splashDamageRadius: 42.5
+            splashDamage: 85
             trailChance: -1
             trailEffect: missileTrail
             hitEffect: flakExplosion
@@ -56,7 +56,7 @@ loopSoundVolume: 0.15
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 4
+            damage: 7
             trailChance: 1
       trailChance: -1
       trailLength: 10
