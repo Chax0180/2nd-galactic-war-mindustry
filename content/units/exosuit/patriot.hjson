@@ -8,6 +8,7 @@ outlineColor: 2b2b2b
 mechLegColor: 565666
 armor: 7
 hitSize: 11
+loopSound: combustion
   weapons: [
     {
       x: -9
@@ -44,7 +45,7 @@ hitSize: 11
         name: patriot-gatling-gun
         reload: 5
         mirror: false
-        innacuracy: 5
+        innacuracy: 15
         rotate: true
         rotationLimit: 15
         shootSound: shoot
@@ -52,7 +53,7 @@ hitSize: 11
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 2
+            damage: 4
             trailChance: 1
       trailChance: -1
       trailLength: 10
