@@ -1,1 +1,12 @@
-
+type: flying
+lowAltitude: true
+name: Pelican
+description: A muilti-purpose VTOL transport shuttle designed for carrying vehicles and troops.
+immunities: [burning, wet]
+drag: 0.08
+accel: 0.02
+health: 840
+armor: 2
+speed: 10
+hitSize: 13
+flying: true
