@@ -62,12 +62,11 @@ shotDelay: 15
     }
 {
 name: pelican-engine
-x: 26
+x: 22
 y: -2
-rotate: true
+rotate: false
 mirror: true
 recoil: 0
-rotationLimit: 30
 noAttack: true
 autotarget: true
 controllable: false
@@ -83,6 +82,19 @@ engines: [
   {
     x: -3
     y: -30
+    radius: 1.65
+    rotation: -90
+  }
+//engines
+  {
+    x: -4
+    y: -22
+    radius: 1.65
+    rotation: -90
+  }
+  {
+    x: -4
+    y: -22
     radius: 1.65
     rotation: -90
   }
