@@ -1,13 +1,13 @@
 type: legs
-name: Bile Titan
-description: A massive bug that crushes structures beneath its feet and vomits corrosive bile on enemies.
-hitSize: 26
-health: 6000
-outlineColor: 5e5030
+name: Matriarch
+description: A massive bug spews hemolymph onto targets, and crushes structures underfoot. Occasionally drops egg sacs that burst into new units.
+hitSize: 30
+health: 24000
+outlineColor: 225157
 armor: 13
-legCount: 4
-legMoveSpace: 1.2
-legLength: 40
+legCount: 6
+legMoveSpace: 2
+legLength: 120
 legExtension: -6
 legBaseOffset: 8
 lockLegBase: true
