@@ -72,3 +72,10 @@ firstShotDelay: 120
      }
   }
   ]
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: hemolymph
+    amount: 360
+  }
+]
