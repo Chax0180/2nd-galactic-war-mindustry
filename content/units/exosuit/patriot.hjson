@@ -30,6 +30,7 @@ loopSound: combustion
             splashDamage: 250
             trailChance: -1
             trailEffect: missileTrail
+            hitEffect: flakExplosion
       hitSound: largeExplosion
       frontColor: 474747
       backColor: 383838
