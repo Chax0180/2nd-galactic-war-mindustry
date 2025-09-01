@@ -10,5 +10,5 @@ armor: 15
 speed: 14
 hitSize: 12
 flying: true
-payloadCapacity: 27
+payloadCapacity: 4
 payloadLimit: 4
