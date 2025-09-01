@@ -40,18 +40,23 @@ treadRects: [
 ]
 weapons: [
     {    
-      x: 10
-        y: 0
+      x: 0
+        y: -8
         name: frv-hmg
-        reload: 6
+        reload: 12
         mirror: false
         inaccuracy: 3
         rotate: true
-        rotationLimit: 30
         recoil: 0.2
     shootSound: shootBig
     soundPitchMin: 1.2
     soundPitchMax: 1.5
+    shoot: {
+      shotDelay: 6
+      shots: 2
+      barrels: 2
+    }
+
         bullet: {
           type: BasicBulletType
             speed: 10
