@@ -1,6 +1,6 @@
 type: mech
 name: "EXO-49 Emancipator"
-description: A heavily armored walking exosuit equipped with dual autocannons. Produced by Morgunson.
+description: A heavily armored walking exomech equipped with dual autocannons. Produced by Morgunson.
 speed: 0.35
 flying: false
 health: 1250
