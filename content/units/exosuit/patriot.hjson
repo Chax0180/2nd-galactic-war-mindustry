@@ -45,15 +45,15 @@ loopSoundVolume: 0.15
       x: 10
         y: 0
         name: patriot-minigun
-        reload: 5
+        reload: 3
         mirror: false
         inaccuracy: 3
         rotate: true
         rotationLimit: 30
         recoil: 0.2
     shootSound: shootBig
-    soundPitchMin: 1.1
-    soundPitchMax: 1.6
+    soundPitchMin: 1.2
+    soundPitchMax: 1.5
         bullet: {
           type: BasicBulletType
             speed: 10
