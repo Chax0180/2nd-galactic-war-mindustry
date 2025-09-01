@@ -12,7 +12,7 @@ loopSoundVolume: 0.15
   weapons: [
     {    
       x: 10
-        y: 2
+        y: 0
         name: emancipator-autocannon
         reload: 30
         mirror: true
