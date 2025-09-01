@@ -107,7 +107,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: construction-depot
+defaultCore: crude-crash-pod
 parent: sun
 solarSystem: sun
 launchCandidates: []
