@@ -68,22 +68,9 @@ rotate: true
 mirror: true
 recoil: 0
 rotationLimit: 30
-continuous: true
-alwaysContinuous: true
-        bullet: {
-          type: BasicBulletType
-            speed: 0
-            lifetime: 0
-            damage: 5
-      pierceArmor: true
-      trailChance: -1
-      trailLength: 10
-      trailWidth: 1
-            splashDamageRadius: 20
-            splashDamage: 5
-            trailChance: -1
-            hitEffect: missileTrailSmoke
-            despawnEffect: missileTrailSmoke
+noAttack: true
+autotarget: true
+controllable: false
         }
 }
 ]
