@@ -61,7 +61,7 @@ weapons: [
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 7
+            damage: 15
             trailChance: 1
       trailChance: -1
       trailLength: 10
