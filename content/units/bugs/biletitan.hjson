@@ -27,10 +27,17 @@ weapons:[
     y: 35
     rotate: false
     mirror: false
-    reload: 10
+    reload: 100
     shootSound: flame
     shootCone: 30
     inaccuracy: 15
+    shootstatus: slow
+    shootStatusDuration: 180
+shoot: {
+shots: 60
+shotDelay: 1
+firstShotDelay: 120
+}
     bullet: {
       damage: 50
       shootEffect: none
