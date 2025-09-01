@@ -9,7 +9,7 @@ hitSize: 11
   weapons: [
     {
       x: -9
-      name: patriot-rocket-launcher
+      name: patriot-rockets
         y: 0
         reload: 300
         rotate: false
