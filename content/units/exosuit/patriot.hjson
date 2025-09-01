@@ -30,6 +30,12 @@ hitSize: 11
             trailChance: -1
             trailEffect: missileTrail
       hitSound: largeExplosion
+      frontColor: 474747
+      backColor: 383838
+      trailColor: ffa665
+      trailChance: -1
+      trailLength: 20
+      trailWidth: 1
         }
     }
     {    
