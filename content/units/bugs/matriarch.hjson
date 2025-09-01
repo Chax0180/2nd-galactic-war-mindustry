@@ -6,13 +6,13 @@ health: 24000
 outlineColor: 225157
 armor: 13
 legCount: 6
-legMoveSpace: 2
-legLength: 120
-legExtension: -6
-legBaseOffset: 8
+legMoveSpace: 1.4
+legLength: 100
+legExtension: -18
+legBaseOffset: 10
 lockLegBase: true
 legContinuousMove: true
-stepShake: 3
+stepShake: 4
 legLengthScl: 0.93
 rippleScale: 8
 legSpeed: 0.24
@@ -26,7 +26,7 @@ legSplashRange: 10
 weapons:[
   {
     x: 0
-    y: 35
+    y: 10
     rotate: false
     mirror: false
     reload: 300
@@ -46,6 +46,7 @@ firstShotDelay: 120
       damage: 30
       shootEffect: none
       speed: 6
+      recoil: 5
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
