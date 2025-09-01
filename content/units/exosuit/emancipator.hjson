@@ -21,7 +21,7 @@ loopSoundVolume: 0.15
         alternate: true
         inaccuracy: 1
         rotate: true
-        rotationLimit: 15
+        rotationLimit: 30
         shootSound: shoot
 shoot: {
 shots: 2
