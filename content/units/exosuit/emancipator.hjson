@@ -14,7 +14,7 @@ loopSoundVolume: 0.15
   weapons: [
     {    
       x: 10
-        y: 4
+        y: 2
         name: emancipator-autocannon
         reload: 20
         mirror: true
@@ -22,7 +22,7 @@ loopSoundVolume: 0.15
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
-        shootSound: shoot
+        shootSound: shootAlt
 shoot: {
 shots: 2
 shotDelay: 10
