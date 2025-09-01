@@ -21,7 +21,7 @@ loopSoundVolume: 0.15
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
-        shootSound: autocannon
+        shootSound: shootAlt
 shoot: {
 shots: 2
 shotDelay: 20.58
