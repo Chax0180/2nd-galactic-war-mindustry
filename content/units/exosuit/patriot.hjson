@@ -34,7 +34,7 @@ hitSize: 11
       x: 9
         y: 0
         name: patriot-gatling-gun
-        reload: 2
+        reload: 120
         mirror: false
         innacuracy: 3
         rotate: false
