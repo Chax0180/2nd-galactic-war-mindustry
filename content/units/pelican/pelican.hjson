@@ -60,18 +60,6 @@ shotDelay: 15
     }
   ]
     }
-{
-name: pelican-engine
-x:  18
-y: -2
-mirror: true
-        controllable: false
-        autoTarget: true
-        recoil: 0
-        inaccuracy: 1
-        rotate: true
-        rotationLimit: 30
-}
 ]
 engines: [
   {
@@ -85,5 +73,17 @@ engines: [
     y: -30
     radius: 1.65
     rotation: -90
+  }
+]
+parts: [
+  {
+    type: RegionPart
+    region: pelican-engine
+    x: 0
+    y: 12
+    moveRot: false
+    progress: rotation
+    rotation: 0
+    mirror: true
   }
 ]
