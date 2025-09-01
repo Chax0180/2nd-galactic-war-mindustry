@@ -88,16 +88,14 @@ engines: [
   }
   {
     x: -22
-    y: -15
-    radius: 3
+    y: -13
+    radius: 2
     rotation: -90
-    trailLength: 10
   }
   {
     x: 22
     y: -13
     radius: 2
     rotation: -90
-    trailLength: 10
   }
 ]
