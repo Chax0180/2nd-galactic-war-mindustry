@@ -9,11 +9,7 @@ targetGround: true
 reload: 3
 range: 160
 velocityRnd: 0.12
-inaccuracy: 5
-shoot: {
-  shots: 3
-  shotDelay: 0.78
-}
+inaccuracy: 3
 ammoTypes: {
 copper: {
           type: BasicBulletType
