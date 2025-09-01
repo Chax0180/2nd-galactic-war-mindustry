@@ -45,7 +45,7 @@ loopSoundVolume: 0.15
     {    
       x: 10
         y: 0
-        name: patriot-gatling-gun
+        name: patriot-minigun
         reload: 5
         mirror: false
         inaccuracy: 3
