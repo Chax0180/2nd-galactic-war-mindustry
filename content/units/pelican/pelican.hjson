@@ -87,15 +87,15 @@ engines: [
   }
 //engines
   {
-    x: -4
-    y: -22
-    radius: 1.65
+    x: -22
+    y: -4
+    radius: 2
     rotation: -90
   }
   {
-    x: -4
-    y: -22
-    radius: 1.65
+    x: 22
+    y: -4
+    radius: 2
     rotation: -90
   }
 ]
