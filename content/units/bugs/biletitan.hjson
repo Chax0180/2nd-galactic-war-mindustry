@@ -31,11 +31,11 @@ weapons:[
     mirror: false
     reload: 300
     shootSound: plantBreak
-    soundPitchMin: 0.15
-    soundPitchMax: 0.4
+    soundPitchMin: 0.3
+    soundPitchMax: 0.6
     shootCone: 30
     inaccuracy: 15
-    shootstatus: slow
+    shootstatus: unmoving
     shootStatusDuration: 180
 shoot: {
 shots: 60
