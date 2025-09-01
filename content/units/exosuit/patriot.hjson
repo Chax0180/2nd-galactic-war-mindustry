@@ -39,7 +39,7 @@ hitSize: 11
         name: patriot-gatling-gun
         reload: 120
         mirror: false
-        innacuracy: 3
+        innacuracy: 5
         rotate: true
         rotationLimit: 15
         shootSound: mediumCannon
@@ -51,7 +51,7 @@ hitSize: 11
         bullet: {
           type: BasicBulletType
             speed: 10
-            lifetime: 10
+            lifetime: 30
             damage: 5
             trailChance: 1
       trailChance: -1
