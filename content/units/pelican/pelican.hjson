@@ -14,6 +14,7 @@ rotateSpeed: 2.25
 flying: true
 payloadCapacity: 4
 payloadLimit: 4
+pickupUnits: true
 weapons: [
     {    
       x: 0
