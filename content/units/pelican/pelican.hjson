@@ -60,6 +60,13 @@ shotDelay: 15
     }
   ]
     }
+{
+name: pelican-engine
+x: 26
+y: -2
+rotate: true
+mirror: true
+}
 ]
 engines: [
   {
@@ -73,21 +80,5 @@ engines: [
     y: -30
     radius: 1.65
     rotation: -90
-  }
-]
-parts: [
-  {
-    type: RegionPart
-    region: "pelican-engine"
-    x: 28
-    y: -2
-    mirror: true
-   moves: [
-      {
-        type: PartMove
-        progress: rotation
-        angle: 360
-      }
-    ]
   }
 ]
