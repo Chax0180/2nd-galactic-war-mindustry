@@ -16,12 +16,14 @@ payloadLimit: 4
 engines: [
   {
     x: 3
-    y: -64
+    y: -34
     radius: 1.5
+    rotation: -90
   }
   {
     x: -3
-    y: -64
+    y: -34
     radius: 1.5
+    rotation: -90
   }
 ]
