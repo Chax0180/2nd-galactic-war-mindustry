@@ -14,26 +14,26 @@ rotateSpeed: 3
 itemCapacity: 0
 treadRects: [
   {
-    x: -39
-    y: -34
+    y: -39
+    x: -34
     height: 14
     width: 24
   }
   {
-    x: 28
-    y: -34
+    y: 28
+    x: -34
     height: 14
     width: 24
   }
   {
-    x: -39
-    y: 35
+    y: -39
+    x: 35
     height: 14
     width: 24
   }
   {
-    x: 28
-    y: 35
+    y: 28
+    x: 35
     height: 14
     width: 24
   }
