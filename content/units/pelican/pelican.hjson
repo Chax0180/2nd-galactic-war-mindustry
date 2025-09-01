@@ -5,8 +5,10 @@ description: A muilti-purpose VTOL transport shuttle designed for carrying vehic
 immunities: [burning, wet]
 drag: 0.08
 accel: 0.01
-health: 840
-armor: 2
+health: 4000
+armor: 15
 speed: 14
-hitSize: 13
+hitSize: 12
 flying: true
+payloadCapacity: 27
+payloadLimit: 4
