@@ -62,13 +62,12 @@ shotDelay: 15
     }
 {
 name: pelican-engine
-x:  30
-y: 4
+x:  18
+y: -2
 mirror: true
         controllable: false
         autoTarget: true
         recoil: 0
-        mirror: false
         inaccuracy: 1
         rotate: true
         rotationLimit: 30
