@@ -62,8 +62,8 @@ shotDelay: 15
     }
 {
 type: pelican-engine
-x: 15
-y:2
+x:  30
+y: 4
 mirror: true
         controllable: false
         autoTarget: true
@@ -71,6 +71,7 @@ mirror: true
         mirror: false
         inaccuracy: 1
         rotate: true
+        rotationLimit: 30
 }
 ]
 engines: [
