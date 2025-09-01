@@ -42,7 +42,7 @@ hitSize: 11
         bullet: {
           type: BasicBulletType
             speed: 10
-            lifetime: 
+            lifetime: 60
             damage: 5
             splashDamageRadius: 16
             splashDamage: 50
