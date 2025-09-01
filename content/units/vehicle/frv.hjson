@@ -38,3 +38,30 @@ treadRects: [
     width: 14
   }
 ]
+weapons: [
+    {    
+      x: 10
+        y: 0
+        name: frv-hmg
+        reload: 6
+        mirror: false
+        inaccuracy: 3
+        rotate: true
+        rotationLimit: 30
+        recoil: 0.2
+    shootSound: shootBig
+    soundPitchMin: 1.2
+    soundPitchMax: 1.5
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 30
+            damage: 7
+            trailChance: 1
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+        }
+    }
+
+]
