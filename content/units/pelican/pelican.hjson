@@ -14,7 +14,47 @@ payloadCapacity: 4
 payloadLimit: 4
 weapons: [
 {
-type: pelican-autocannon
+    {    
+      x: 10
+        y: -2
+        name: pelican-autocannon
+        reload: 120
+        recoil: 0.2
+        mirror: false
+        inaccuracy: 1
+        rotate: true
+        shootSound: shootAlt
+shoot: {
+shots: 3
+shotDelay: 15
+}
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 30
+            damage: 50
+      pierceArmor: true
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+            splashDamageRadius: 20
+            splashDamage: 30
+            trailChance: -1
+            hitEffect: flakExplosion
+      hitSound: largeExplosion
+        }
+  parts: [
+    {
+      type: RegionPart
+      y: 4.3
+      suffix: -barrel
+      mirror: false
+      under: true
+      progress: recoil
+      moveY: -1.5
+    }
+  ]
+    }
 }
 ]
 engines: [
