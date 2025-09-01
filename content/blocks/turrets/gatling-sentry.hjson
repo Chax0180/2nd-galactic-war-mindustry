@@ -15,17 +15,15 @@ shoot: {
   shotDelay: 0.78
 }
 ammoTypes: {
-  01a-01-item-ferrinite: {
-    frontColor: ffffff
-    backColor: 757575
-    trailColor: 757575
-    type: ArtilleryBulletType
-    width: 7
-    height: 9
-    speed: 2
-    lifetime: 80
-    splashDamage: 28
-    splashDamageRadius: 8
+copper: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 30
+            damage: 7
+            trailChance: 1
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
   }
 }
 drawer: {
