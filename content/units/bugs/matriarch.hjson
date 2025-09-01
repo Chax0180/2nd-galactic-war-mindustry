@@ -46,7 +46,7 @@ firstShotDelay: 120
       damage: 30
       shootEffect: none
       speed: 6
-      recoil: 5
+      recoil: 0.1
       pierce: true
       pierceBuilding: true
       ammoMultiplier: 5
