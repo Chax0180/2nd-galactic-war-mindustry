@@ -16,8 +16,8 @@ payloadCapacity: 4
 payloadLimit: 4
 weapons: [
     {    
-      x: 10
-        y: -2
+      x: 0
+        y: 8
         name: pelican-autocannon
         reload: 120
         recoil: 0.2
