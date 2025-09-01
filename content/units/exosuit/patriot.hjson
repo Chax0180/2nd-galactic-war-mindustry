@@ -8,7 +8,7 @@ armor: 10
 immunities: [burning, wet]
 hitSize: 11
 loopSound: combustion
-loopSoundVolume: 0.15
+loopSoundVolume: 0.03
   weapons: [
     {
       x: -10
