@@ -12,3 +12,16 @@ hitSize: 12
 flying: true
 payloadCapacity: 4
 payloadLimit: 4
+
+engines: [
+  {
+    x: 3
+    y: -64
+    radius: 1.5
+  }
+  {
+    x: -3
+    y: -64
+    radius: 1.5
+  }
+]
