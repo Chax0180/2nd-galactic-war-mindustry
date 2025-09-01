@@ -55,7 +55,7 @@ firstShotDelay: 120
       makeFire: false
       lifetime: 30
       despawnEffect: none
-      width: 1
+      width: 2
       height: 0.01
       hittable: false
       smokeEffect: {
@@ -65,9 +65,9 @@ firstShotDelay: 120
           lifetime: 36
           interp: circleOut
           cone: 3
-          colorFrom: 84f491
-          colorTo: 62ae7f
-          sizeFrom: 10
+          colorFrom: 68edad
+          colorTo: 319464
+          sizeFrom: 20
           sizeTo: 0.6
         }
      }
