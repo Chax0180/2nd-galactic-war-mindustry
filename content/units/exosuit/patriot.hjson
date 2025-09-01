@@ -35,22 +35,17 @@ hitSize: 11
       x: 9
         y: 0
         name: patriot-gatling-gun
-        reload: 120
+        reload: 5
         mirror: false
         innacuracy: 5
         rotate: true
         rotationLimit: 15
         shootSound: mediumCannon
-    shoot: {
-      firstShotDelay: 20
-      shots: 30
-      shotDelay:5
-    }
         bullet: {
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 5
+            damage: 2
             trailChance: 1
       trailChance: -1
       trailLength: 10
