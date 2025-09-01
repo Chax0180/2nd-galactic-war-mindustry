@@ -25,7 +25,7 @@ loopSoundVolume: 0.15
         bullet: {
           type: MissileBulletType
             speed: 4
-            lifetime: 120
+            lifetime: 180
             damage: 750
             splashDamageRadius: 40
             splashDamage: 250
@@ -48,7 +48,7 @@ loopSoundVolume: 0.15
         name: patriot-gatling-gun
         reload: 5
         mirror: false
-        inaccuracy: 15
+        inaccuracy: 3
         rotate: true
         rotationLimit: 15
         shootSound: shoot
