@@ -86,7 +86,7 @@ parts: [
       {
         type: PartMove
         progress: rotation
-        rotation: 1
+        angle: 360
       }
     ]
   }
