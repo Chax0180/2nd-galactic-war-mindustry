@@ -58,12 +58,12 @@ cloudMesh: [
    type: HexSkyMesh
    planet: meridian
    speed: 1.21
-   radius: 0.1
+   radius: 0.13
    divisions: 6
    color: 88fcc4
    octaves: 3
    persistence: 0.3
-   scl: 1
+   scl: 0.5
    thresh: 0.6
   }
 ]
