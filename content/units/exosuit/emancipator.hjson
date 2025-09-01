@@ -31,12 +31,13 @@ shotDelay: 10
           type: BasicBulletType
             speed: 10
             lifetime: 30
-            damage: 60
+            damage: 40
+      pierceArmor: true
       trailChance: -1
       trailLength: 10
       trailWidth: 1
-            splashDamageRadius: 40
-            splashDamage: 250
+            splashDamageRadius: 15
+            splashDamage: 15
             trailChance: -1
             hitEffect: flakExplosion
       hitSound: largeExplosion
