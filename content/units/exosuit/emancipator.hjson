@@ -1,0 +1,36 @@
+type: mech
+name: "EXO-45 Patriot"
+description: A heavily-armored walking exosuit equipped with a rocket launcher and heavy machine gun. Produced by Morgunson.
+speed: 0.35
+flying: false
+health: 1250
+outlineColor: 2b2b2b
+mechLegColor: 565666
+armor: 10
+immunities: [burning, wet]
+hitSize: 11
+loopSound: combustion
+loopSoundVolume: 0.15
+  weapons: [
+    {    
+      x: 11
+        y: 0
+        name: emancipator-autocannon
+        reload: 5
+        mirror: true
+        inaccuracy: 3
+        rotate: true
+        rotationLimit: 15
+        shootSound: shoot
+        bullet: {
+          type: BasicBulletType
+            speed: 10
+            lifetime: 30
+            damage: 4
+            trailChance: 1
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+        }
+    }
+]
