@@ -47,7 +47,7 @@ weapons: [
         mirror: false
         inaccuracy: 3
         rotate: true
-        recoil: 0.2
+        recoil: 0.8
     shootSound: shootBig
     soundPitchMin: 1.2
     soundPitchMax: 1.5
