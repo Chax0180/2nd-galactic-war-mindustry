@@ -4,8 +4,6 @@ description: A heavily armored walking exosuit equipped with dual autocannons. P
 speed: 0.35
 flying: false
 health: 1250
-outlineColor: 2b2b2b
-mechLegColor: 565666
 armor: 10
 immunities: [burning, wet]
 hitSize: 11
