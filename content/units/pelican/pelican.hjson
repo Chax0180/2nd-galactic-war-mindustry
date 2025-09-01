@@ -19,7 +19,7 @@ weapons: [
       x: 0
         y: 10
         name: pelican-autocannon
-        top: false
+        under: true
         reload: 120
         controllable: false
         autoTarget: true
