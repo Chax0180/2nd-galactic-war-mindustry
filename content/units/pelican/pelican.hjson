@@ -19,6 +19,7 @@ weapons: [
       x: 0
         y: 0
         name: pelican-autocannon
+        layerOffset: 2
         under: true
         reload: 120
         shootStatus: slow
