@@ -82,7 +82,8 @@ alwaysContinuous: true
             splashDamageRadius: 20
             splashDamage: 5
             trailChance: -1
-            hitEffect: rocketSmokeLarge
+            hitEffect: missileTrailSmoke
+            despawnEffect: missileTrailSmoke
         }
 }
 ]
