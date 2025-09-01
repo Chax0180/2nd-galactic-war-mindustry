@@ -3,10 +3,10 @@ name: "EXO-45 Patriot"
 description: A heavily-armored walking exosuit equipped with a rocket launcher and heavy machine gun. Produced by Morgunson.
 speed: 0.35
 flying: false
-health: 500
+health: 1250
 outlineColor: 2b2b2b
 mechLegColor: 565666
-armor: 45
+armor: 10
 immunities: [burning, wet]
 hitSize: 11
 loopSound: combustion
