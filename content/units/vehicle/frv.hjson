@@ -1,7 +1,7 @@
 type: tank
 name: M-102 Fast Recon Vehicle
 description: A lightly-armored reconnaissance vehicle mounted with a heavy machinegun.
-hitSize: 30
+hitSize: 10
 crushDamage: 1
 treadPullOffset: 6
 singleTarget: false
