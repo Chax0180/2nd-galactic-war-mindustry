@@ -39,6 +39,10 @@ hitSize: 11
         innacuracy: 3
         rotate: false
         shootSound: mediumCannon
+    shoot: {
+      firstShotDelay: 20
+      shots: 30
+    }
         bullet: {
           type: BasicBulletType
             speed: 10
