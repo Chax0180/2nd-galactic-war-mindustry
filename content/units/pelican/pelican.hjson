@@ -60,6 +60,12 @@ shotDelay: 15
     }
   ]
     }
+{
+type: pelican-engine
+x: 15
+y:2
+mirror: true
+}
 ]
 engines: [
   {
