@@ -39,7 +39,7 @@ shoot:{
     shootStatusDuration: 120
     shootStatus: unmoving
     parentizeEffects: true
-    firstShotDelay: 60
+    firstShotDelay: 100
 }
     bullet: {
       type: LaserBulletType
