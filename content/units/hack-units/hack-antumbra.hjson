@@ -1,0 +1,12 @@
+name: Hacked Antumbra
+speed: 0.8
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1.9
+flying: true
+lowAltitude: true
+health: 7200
+armor: 9
+engineOffset: 21
+engineSize: 5.3
+hitSize: 46
