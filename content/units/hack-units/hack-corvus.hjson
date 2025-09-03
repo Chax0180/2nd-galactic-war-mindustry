@@ -17,5 +17,4 @@ legLength: 14
 legBaseOffset: 11
 legMoveSpace: 1.5
 legForwardScl: 0.58
-hovering: true
 shadowElevation: 0.2
