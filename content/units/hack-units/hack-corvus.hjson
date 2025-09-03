@@ -1,0 +1,21 @@
+type: legs
+name: Hacked Reign
+speed: 0.3
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1.65
+flying: true
+lowAltitude: true
+health: 18000
+armor: 9
+stepShake: 1.5
+hitSize: 29
+drownTimeMultiplier: 6
+
+legCount: 4
+legLength: 14
+legBaseOffset: 11
+legMoveSpace: 1.5
+legForwardScl: 0.58
+hovering: true
+shadowElevation: 0.2
