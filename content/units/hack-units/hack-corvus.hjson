@@ -22,8 +22,8 @@ shadowElevation: 0.2
 weapons: [
   {
     name: corvus-weapon
-    shootSound: laserblast
-    chargeSound: lasercharge
+    shootSound: luminaryheavylaser
+    chargeSound: luminaryheavylasercharge
     soundPitchMin: 1
     top: false
     mirror: false
@@ -31,15 +31,14 @@ weapons: [
     shootY: 5
     x: 0
     y: 0
-    reload: 350
-    recoil: 0
-    cooldownTime: 350
-    chargeEffect: greenLaserCharge
+    reload: 600
+    recoil: 5
+    cooldownTime: 600
 shoot:{
     shootStatusDuration: 120
     shootStatus: unmoving
     parentizeEffects: true
-    firstShotDelay: 100
+    firstShotDelay: 128
 }
     bullet: {
       type: LaserBulletType
