@@ -12,6 +12,3 @@ version: 0.0.1
 displayName: Helldustry
 subtitle: "John Helldiver was court-martialled."
 repo: "Chax0180/2nd-galactic-war-mindustry"
-dependencies: [
-  vu
-]
