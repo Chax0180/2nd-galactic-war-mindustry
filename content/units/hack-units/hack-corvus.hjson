@@ -62,10 +62,6 @@ shoot:{
       healPercent: 25
       collidesTeam: true
 
-      sideAngle: 15
-      sideWidth: 0
-      sideLength: 0
-
       colors: [
         heal 0.4
         heal
