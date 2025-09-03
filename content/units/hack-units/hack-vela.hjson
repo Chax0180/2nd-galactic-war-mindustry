@@ -1,0 +1,21 @@
+type: mech
+name: Hacked Vela
+speed: 0.44
+canBoost: true
+boostMultiplier: 2.4
+
+rotateSpeed: 1.8
+flying: true
+lowAltitude: true
+health: 8200
+armor: 9
+stepShake: 0.15
+hitSize: 24
+drownTimeMultiplier: 4
+mechFrontSway: 1
+  engineOffset: 12
+  engineSize: 6
+  lowAltitude: true
+  riseSpeed: 0.02
+  mechLandShake: 4
+  immunities: [burning]
