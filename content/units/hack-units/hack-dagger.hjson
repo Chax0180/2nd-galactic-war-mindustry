@@ -1,8 +1,6 @@
 type: mech
 name: Hacked Dagger
 speed: 0.5
-canBoost: true
 boostMultiplier: 2.4
-flying: false
 health: 150
 hitSize: 8
