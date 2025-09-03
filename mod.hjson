@@ -3,6 +3,8 @@ description:'''
 Adds various things based on Helldivers 2 to Mindustry.
 
 WIP as of now.
+
+Some unit sprites are recolors of those created by Bloody-Ocean (Mesyachnuy/Месячный)
 '''
 author: Chax0180
 minGameVersion: 146
@@ -10,3 +12,6 @@ version: 0.0.1
 displayName: Helldustry
 subtitle: "John Helldiver was court-martialled."
 repo: "Chax0180/2nd-galactic-war-mindustry"
+dependencies: [
+  bloodyVisual
+]
