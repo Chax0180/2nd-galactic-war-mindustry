@@ -34,10 +34,12 @@ weapons: [
     reload: 350
     recoil: 0
     cooldownTime: 350
+    chargeEffect: greenLaserCharge
 shoot:{
     shootStatusDuration: 120
     shootStatus: unmoving
     parentizeEffects: true
+    firstShotDelay: 60
 }
     bullet: {
       type: LaserBulletType
@@ -56,8 +58,6 @@ shoot:{
 
       lightColor: 6b3aba
       lightningColor: b58aff
-
-      chargeEffect: greenLaserCharge
 
       healPercent: 25
       collidesTeam: true
