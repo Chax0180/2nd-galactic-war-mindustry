@@ -5,7 +5,6 @@ accel: 0.04
 drag: 0.04
 rotateSpeed: 1.65
 
-lowAltitude: true
 health: 18000
 armor: 9
 stepShake: 1.5
