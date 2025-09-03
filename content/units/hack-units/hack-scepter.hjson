@@ -2,7 +2,6 @@ type: mech
 name: Hacked Scepter
 speed: 0.36
 rotateSpeed: 2.1
-flying: false
 health: 9000
 armor: 10
 stepShake: 0.15
