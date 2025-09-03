@@ -18,3 +18,59 @@ legBaseOffset: 11
 legMoveSpace: 1.5
 legForwardScl: 0.58
 shadowElevation: 0.2
+
+weapons: [
+  {
+    name: corvus-weapon
+    shootSound: laserblast
+    chargeSound: lasercharge
+    soundPitchMin: 1
+    top: false
+    mirror: false
+    shake: 14
+    shootY: 5
+    x: 0
+    y: 0
+    reload: 350
+    recoil: 0
+    cooldownTime: 350
+shoot:{
+    shootStatusDuration: 120
+    shootStatus: unmoving
+    parentizeEffects: true
+}
+    bullet: {
+      type: LaserBulletType
+      length: 460
+      damage: 560
+      width: 75
+      lifetime: 65
+
+      lightningSpacing: 35
+      lightningLength: 5
+      lightningDelay: 1.1
+      lightningLengthRand: 15
+      lightningDamage: 50
+      lightningAngleRand: 40
+      largeHit: true
+
+      lightColor: 646567
+      lightningColor: 646567
+
+      chargeEffect: greenLaserCharge
+
+      healPercent: 25
+      collidesTeam: true
+
+      sideAngle: 15
+      sideWidth: 0
+      sideLength: 0
+
+      colors: [
+        heal 0.4
+        heal
+        ffffff
+      ]
+    }
+  }
+]
