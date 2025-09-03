@@ -1,11 +1,8 @@
 type: mech
 name: Hacked Fortress
 speed: 0.43
-boostMultiplier: 2.4
 rotateSpeed: 3
 targetAir: false
-flying: true
-lowAltitude: true
 health: 900
 armor: 9
 stepShake: 0.15
