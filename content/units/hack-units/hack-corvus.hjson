@@ -54,8 +54,8 @@ shoot:{
       lightningAngleRand: 40
       largeHit: true
 
-      lightColor: 646567
-      lightningColor: 646567
+      lightColor: 6b3aba
+      lightningColor: b58aff
 
       chargeEffect: greenLaserCharge
 
