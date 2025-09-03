@@ -3,7 +3,6 @@ name: Hacked Reign
 speed: 0.4
 accel: 0.04
 rotateSpeed: 1.65
-flying: false
 health: 24000
 armor: 18
 stepShake: 0.75
