@@ -4,7 +4,8 @@ speed: 0.3
 accel: 0.04
 drag: 0.04
 rotateSpeed: 1.65
-flying: true
+flying: false
+
 lowAltitude: true
 health: 18000
 armor: 9
