@@ -61,6 +61,11 @@ shoot:{
 
       healPercent: 25
       collidesTeam: true
+colors:[
+b58aff
+6b3aba
+ffffff
+]
     }
   }
 ]
