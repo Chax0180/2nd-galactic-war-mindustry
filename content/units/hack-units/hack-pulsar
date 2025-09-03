@@ -1,0 +1,14 @@
+type: mech
+name: Hacked Pulsar
+speed: 0.7
+canBoost: true
+boostMultiplier: 1.6
+
+flying: true
+lowAltitude: true
+health: 320
+armor: 4
+stepShake: 0.15
+hitSize: 11
+  lowAltitude: true
+  riseSpeed: 0.07
