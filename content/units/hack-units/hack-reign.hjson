@@ -2,14 +2,12 @@ type: mech
 name: Hacked Reign
 speed: 0.4
 accel: 0.04
-drag: 0.04
 rotateSpeed: 1.65
-flying: true
-lowAltitude: true
+flying: false
 health: 24000
 armor: 18
 stepShake: 0.75
 hitSize: 30
 drownTimeMultiplier: 6
 mechFrontSway: 1.9
-mechSizeSway: 0.6
+mechSideSway: 0.6
