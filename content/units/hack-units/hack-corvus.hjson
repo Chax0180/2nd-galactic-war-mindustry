@@ -71,3 +71,15 @@ ffffff
     }
   }
 ]
+abilities: [
+  {
+  type: ShieldArcAbility
+      radius: 25
+      angle: 120
+      width: 25
+      regen: 2
+      max: 1700
+      whenShooting: true
+      color: b58aff
+  }
+  ]
