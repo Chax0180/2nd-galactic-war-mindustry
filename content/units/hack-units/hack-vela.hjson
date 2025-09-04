@@ -74,6 +74,7 @@ weapons: [
     shootY: 6
     beamWidth: 0.8
     repairSpeed: 1.8
+    laserColor: 6b3aba
 
     bullet: {
       maxRange: 120
