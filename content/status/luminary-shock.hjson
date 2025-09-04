@@ -1,0 +1,5 @@
+damage: 0.1
+speedMultiplier: 0.8
+color: b58aff
+effect: electrified
+effectChance: 0.3
