@@ -34,7 +34,7 @@ weapons: [
     y: 0
     reload: 600
     recoil: 0
-    cooldownTime: 600
+    cooldownTime: 1200
 shoot:{
     shootStatusDuration: 300
     shootStatus: [unmoving, melting]
