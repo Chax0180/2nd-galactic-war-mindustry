@@ -14,6 +14,7 @@ hitSize: 11
   lowAltitude: true
   riseSpeed: 0.07
 weapons: [
+{
 type: hack-artillery-weapon
 reload: 90
 mirror: false
@@ -22,7 +23,10 @@ y: 0.5
 top: false
 shake: 2.2
 shootY: 2.5
-
+shoot: {
+shots: 5
+shotDelay: 0.5
+}
 recoil: 2.5
 shootSound: spark
 bullet: {
@@ -33,5 +37,6 @@ type: LightningBulletType
                     lightningLength: 8
                     lightningLengthRand: 10
                     shootEffect: shootHeal
+}
 }
 ]
