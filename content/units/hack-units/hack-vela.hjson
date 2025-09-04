@@ -19,3 +19,70 @@ mechFrontSway: 1
   riseSpeed: 0.02
   mechLandShake: 4
   immunities: [burning]
+weapons: [
+  {
+    name: hack-vela-weapon
+    mirror: false
+    top: false
+    shake: 4
+    shootY: 14
+    x: 0
+    y: 0
+
+shoot:{
+    firstShotDelay: 60
+    parentizeEffects: true
+}
+
+    reload: 155
+    recoil: 0
+    chargeSound: luminarymediumlasercharge
+    shootSound: beam
+    continuous: true
+    cooldownTime: 200
+
+    bullet: {
+      type: ContinuousLaserBulletType
+      damage: 35
+      length: 180
+      hitEffect: hitMeltHeal
+      drawSize: 420
+      lifetime: 160
+      shake: 1
+      despawnEffect: smokeCloud
+      smokeEffect: none
+
+      chargeEffect: greenLaserChargeSmall
+
+      incendChance: 0.1
+      incendSpread: 5
+      incendAmount: 1
+
+      healPercent: 1
+      collidesTeam: true
+
+      colors: [
+        b58aff
+        b58aff
+        6b3aba
+        ffffff
+      ]
+    }
+
+    shootStatus: absolute-overdrive
+  }
+
+  {
+    type: RepairBeamWeapon
+    name: repair-beam-weapon-center-large
+    x: 11
+    y: -7.5
+    shootY: 6
+    beamWidth: 0.8
+    repairSpeed: 1.4
+
+    bullet: {
+      maxRange: 120
+    }
+  }
+]
