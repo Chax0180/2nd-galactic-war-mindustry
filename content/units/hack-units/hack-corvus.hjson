@@ -21,8 +21,7 @@ shadowElevation: 0.2
 
 weapons: [
   {
-    name: weapon
-    heatRegion: "-heat"
+    name: hack-corvus-weapon
     shootSound: luminaryheavylaser
     chargeSound: luminaryheavylasercharge
     soundPitchMin: 1
