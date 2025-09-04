@@ -38,7 +38,7 @@ weapons: [
     recoil: 0
     cooldownTime: 1200
     shootStatusDuration: 300
-    shootStatus: absolute-overdrive
+    shootStatus: absolute-overload
 shoot:{
     parentizeEffects: true
     firstShotDelay: 128
@@ -52,12 +52,12 @@ shoot:{
       width: 75
       lifetime: 65
 
-      lightningSpacing: 35
+      lightningSpacing: 15
       lightningLength: 5
-      lightningDelay: 1.1
+      lightningDelay: 0.9
       lightningLengthRand: 15
-      lightningDamage: 50
-      lightningAngleRand: 40
+      lightningDamage: 80
+      lightningAngleRand: 50
       largeHit: true
 
       lightColor: 6b3aba
@@ -79,6 +79,7 @@ abilities: [
       regen: 2
       max: 500
       color: b58aff
+      whenFiring: false
   }
   {
   type: ShieldArcAbility
@@ -88,5 +89,6 @@ abilities: [
       regen: 2
       max: 500
       color: b58aff
+      whenFiring: false
   }
   ]
