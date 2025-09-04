@@ -1,5 +1,6 @@
 type: mech
 name: Hacked Pulsar
+description: Fires large arcs at enemy targets.
 speed: 0.7
 canBoost: true
 boostMultiplier: 1.6
