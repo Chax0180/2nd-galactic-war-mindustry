@@ -32,3 +32,6 @@ splashDamage: 90
                     lightningLength: 5
                     lightningColor: b58aff
                     lightningDamage: 10
+}
+}
+]
