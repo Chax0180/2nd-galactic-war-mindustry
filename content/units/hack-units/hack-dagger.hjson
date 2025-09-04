@@ -1,6 +1,23 @@
 type: mech
 name: Hacked Dagger
+description: Fires shocking bullets at enemy targets.
 speed: 0.5
 boostMultiplier: 2.4
 health: 150
 hitSize: 8
+weapons: [
+{
+type: hack-large-weapon
+reload: 10
+x: 4
+y: 2
+top: false
+ejectEffect: casing1
+bullet: {
+type: BasicBulletType
+width: 7
+height: 9
+lifetime: 40
+}
+}
+]
