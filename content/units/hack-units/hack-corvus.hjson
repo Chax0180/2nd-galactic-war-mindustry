@@ -46,8 +46,8 @@ shoot:{
 }
     bullet: {
       type: LaserBulletType
-      length: 460
-      damage: 560
+      length: 400
+      damage: 520
       width: 75
       lifetime: 65
 
