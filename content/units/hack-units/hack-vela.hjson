@@ -1,4 +1,4 @@
-type: mech
+amtype: mech
 name: Hacked Vela
 speed: 0.44
 canBoost: true
@@ -29,15 +29,9 @@ weapons: [
     x: 0
     y: 0
 
-shoot:{
-    firstShotDelay: 60
-    parentizeEffects: true
-}
-
     reload: 155
     recoil: 0
-    chargeSound: luminarymediumlasercharge
-    shootSound: beam
+    shootSound: luminarymediumbeam
     continuous: true
     cooldownTime: 200
 
