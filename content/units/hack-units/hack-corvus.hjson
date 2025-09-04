@@ -35,9 +35,9 @@ weapons: [
     reload: 600
     recoil: 0
     cooldownTime: 1200
-shoot:{
     shootStatusDuration: 300
     shootStatus: [unmoving, melting]
+shoot:{
     parentizeEffects: true
     firstShotDelay: 128
     shotDelay: 40
