@@ -37,7 +37,7 @@ weapons: [
     cooldownTime: 600
 shoot:{
     shootStatusDuration: 300
-    shootStatus: unmoving
+    shootStatus: [unmoving, melting]
     parentizeEffects: true
     firstShotDelay: 128
     shotDelay: 40
