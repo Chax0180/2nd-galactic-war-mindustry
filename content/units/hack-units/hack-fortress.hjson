@@ -8,3 +8,20 @@ armor: 9
 stepShake: 0.15
 hitSize: 13
 mechFrontSway: 0.55
+weapons: [
+{
+type: hack-artillery-weapon
+reload: 30
+x: 4
+y: 2
+top: false
+ejectEffect: casing2
+bullet: {
+type: BasicBulletType
+width: 7
+height: 9
+lifetime: 40
+                    lightning = 3
+                    lightningLength = 4
+                    lightningColor: b58aff
+                    lightningDamage: 10
