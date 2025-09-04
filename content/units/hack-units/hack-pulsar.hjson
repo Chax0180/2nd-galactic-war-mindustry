@@ -13,5 +13,38 @@ hitSize: 11
   lowAltitude: true
   riseSpeed: 0.07
 weapons: [
+type: hack-artillery-weapon
+reload: 90
+mirror: false
+x: 5
+y: 0.5
+top: false
+shake: 2.2
+shootY: 2.5
+shoot: [
+shots: 5
+shotDelat: 0.5
+]
+recoil: 2.5
+shootSound: spark
+bullet: {
+type: LightningBulletType
+                    lightningColor: b58aff
+                    hitColor: b58aff
+                    damage: 12
+                    lightningLength: 8
+                    lightningLengthRand: 10
+                    shootEffect: shootHeal
+                    healPercent: 2
 
+                    lightningType = new BulletType(0.0001f, 0f){{
+                    lifetime = Fx.lightning.lifetime;
+                    hitEffect = Fx.hitLancer;
+                    despawnEffect = Fx.none;
+                    status = StatusEffects.shocked;
+                    statusDuration = 10f;
+                    hittable = false;
+                    healPercent = 1.6f;
+                    collidesTeam = true;
+}
 ]
