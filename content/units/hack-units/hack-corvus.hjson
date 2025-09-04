@@ -30,12 +30,13 @@ weapons: [
     mirror: false
     shake: 14
     shootY: 5
+    inaccuracy: 3
     x: 0
     y: 0
     reload: 600
     recoil: 0
     cooldownTime: 1200
-    shootStatusDuration: 300
+    shootStatusDuration: 600
     shootStatus: absolute-overdrive
 shoot:{
     parentizeEffects: true
@@ -74,8 +75,18 @@ ffffff
 abilities: [
   {
   type: ShieldArcAbility
-      radius: 25
+      radius: 40
       angle: 120
+      width: 10
+      regen: 2
+      max: 1700
+      whenShooting: true
+      color: b58aff
+  }
+  {
+  type: ShieldArcAbility
+      radius: 25
+      angle: 200
       width: 10
       regen: 2
       max: 1700
