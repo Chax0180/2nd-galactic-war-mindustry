@@ -22,10 +22,6 @@ y: 0.5
 top: false
 shake: 2.2
 shootY: 2.5
-shoot:[
-shots: 5
-shotDelay: 0.5
-]
 
 recoil: 2.5
 shootSound: spark
