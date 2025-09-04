@@ -1,5 +1,6 @@
 type: legs
 name: Hacked Corvus
+description: Fires three massive consecutive laser blasts, damaging itself in the process. Can step over most terrain.
 speed: 0.5
 accel: 0.04
 drag: 0.04
@@ -36,7 +37,7 @@ weapons: [
     reload: 600
     recoil: 0
     cooldownTime: 1200
-    shootStatusDuration: 600
+    shootStatusDuration: 300
     shootStatus: absolute-overdrive
 shoot:{
     parentizeEffects: true
@@ -61,9 +62,6 @@ shoot:{
 
       lightColor: 6b3aba
       lightningColor: b58aff
-
-      healPercent: 25
-      collidesTeam: true
 colors:[
 b58aff
 6b3aba
