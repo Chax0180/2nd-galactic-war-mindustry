@@ -12,3 +12,6 @@ stepShake: 0.15
 hitSize: 11
   lowAltitude: true
   riseSpeed: 0.07
+weapons: [
+
+]
