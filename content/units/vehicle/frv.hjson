@@ -63,6 +63,8 @@ weapons: [
             lifetime: 30
             damage: 15
             trailChance: 1
+            width: 7
+            height: 9
       trailChance: -1
       trailLength: 10
       trailWidth: 1
