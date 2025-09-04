@@ -21,10 +21,10 @@ y: 0.5
 top: false
 shake: 2.2
 shootY: 2.5
-shoot: [
+shoot: {
 shots: 5
-shotDelat: 0.5
-]
+shotDelay: 0.5
+}
 recoil: 2.5
 shootSound: spark
 bullet: {
@@ -35,16 +35,12 @@ type: LightningBulletType
                     lightningLength: 8
                     lightningLengthRand: 10
                     shootEffect: shootHeal
-                    healPercent: 2
 
-                    lightningType = new BulletType(0.0001f, 0f){{
-                    lifetime = Fx.lightning.lifetime;
-                    hitEffect = Fx.hitLancer;
-                    despawnEffect = Fx.none;
-                    status = StatusEffects.shocked;
-                    statusDuration = 10f;
-                    hittable = false;
-                    healPercent = 1.6f;
-                    collidesTeam = true;
+                    lightningType: BulletType(0.0001f, 0f){{
+                    lifetime: 5
+                    hitEffect: hitLancer
+                    status: otherworldly-shock
+                    statusDuration: 40
+                    hittable: false
 }
 ]
