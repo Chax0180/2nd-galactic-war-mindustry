@@ -62,7 +62,7 @@ weapons: [
       ]
     }
 
-    shootStatus: absolute-overdrive
+    shootStatus: absolute-overload
   }
 
   {
