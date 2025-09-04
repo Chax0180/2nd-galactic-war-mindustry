@@ -60,8 +60,7 @@ rotate: false
 mirror: true
 recoil: 0
 noAttack: true
-autotarget: true
-controllable: false
+damage: 0
 shadow: 1
 }
 ]
