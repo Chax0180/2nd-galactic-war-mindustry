@@ -1,4 +1,4 @@
-amtype: mech
+type: mech
 name: Hacked Vela
 description: Fires a massive continuous laser beam that causes fires, damaging itself in the process. Capable of flight.
 speed: 0.7
@@ -41,7 +41,6 @@ weapons: [
       type: ContinuousLaserBulletType
       damage: 25
       length: 240
-      hitEffect: hitMelt
       drawSize: 420
       lifetime: 220
       shake: 1
