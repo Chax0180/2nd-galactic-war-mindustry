@@ -33,6 +33,7 @@ weapons: [
     x: 0
     y: 0
     reload: 600
+    recoil: 0
     cooldownTime: 600
 shoot:{
     shootStatusDuration: 300
