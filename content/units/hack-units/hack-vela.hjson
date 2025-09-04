@@ -73,11 +73,11 @@ weapons: [
     y: -7.5
     shootY: 6
     beamWidth: 0.8
-    repairSpeed: 1.8
+    repairSpeed: 2.4
     laserColor: 6b3aba
 
     bullet: {
-      maxRange: 120
+      maxRange: 100
     }
   }
 ]
