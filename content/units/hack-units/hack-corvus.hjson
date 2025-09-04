@@ -21,7 +21,8 @@ shadowElevation: 0.2
 
 weapons: [
   {
-    name: corvus-weapon
+    name: hack-corvus-weapon
+    heatRegion: "hack-corvus-weapon-heat"
     shootSound: luminaryheavylaser
     chargeSound: luminaryheavylasercharge
     soundPitchMin: 1
@@ -32,10 +33,10 @@ weapons: [
     x: 0
     y: 0
     reload: 600
-    recoil: 5
+    recoil: 20
     cooldownTime: 600
 shoot:{
-    shootStatusDuration: 120
+    shootStatusDuration: 300
     shootStatus: unmoving
     parentizeEffects: true
     firstShotDelay: 128
