@@ -36,7 +36,7 @@ weapons: [
     recoil: 0
     cooldownTime: 1200
     shootStatusDuration: 300
-    shootStatus: [unmoving, melting]
+    shootStatus: absolute-overdrive
 shoot:{
     parentizeEffects: true
     firstShotDelay: 128
