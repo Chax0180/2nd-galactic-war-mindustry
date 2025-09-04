@@ -25,6 +25,7 @@ shootY: 2.5
 shoot:{
 shots: 5
 shotDelay: 0.5
+}
 
 recoil: 2.5
 shootSound: spark
@@ -36,12 +37,5 @@ type: LightningBulletType
                     lightningLength: 8
                     lightningLengthRand: 10
                     shootEffect: shootHeal
-
-                    lightningType: BulletType(0.0001f, 0f){{
-                    lifetime: 5
-                    hitEffect: hitLancer
-                    status: otherworldly-shock
-                    statusDuration: 40
-                    hittable: false
 }
 ]
