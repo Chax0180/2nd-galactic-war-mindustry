@@ -43,6 +43,8 @@ shotDelay: 15
       trailChance: -1
       trailLength: 10
       trailWidth: 1
+width: 7
+height: 9
             splashDamageRadius: 20
             splashDamage: 30
             trailChance: -1
