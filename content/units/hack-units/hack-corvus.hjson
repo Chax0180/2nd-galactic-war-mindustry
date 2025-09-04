@@ -24,6 +24,7 @@ weapons: [
     name: hack-corvus-weapon
     shootSound: luminaryheavylaser
     chargeSound: luminaryheavylasercharge
+    heatColor: b58aff
     soundPitchMin: 1
     top: false
     mirror: false
@@ -32,7 +33,6 @@ weapons: [
     x: 0
     y: 0
     reload: 600
-    recoil: 20
     cooldownTime: 600
 shoot:{
     shootStatusDuration: 300
