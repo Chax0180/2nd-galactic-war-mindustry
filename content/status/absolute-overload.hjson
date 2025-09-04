@@ -1,2 +1,5 @@
 damage: 3
 speedMultiplier: 0.5
+color: b58aff
+effect: melting
+effectChance: 0.3
