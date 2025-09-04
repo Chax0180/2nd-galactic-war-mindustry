@@ -68,12 +68,12 @@ weapons: [
 
   {
     type: RepairBeamWeapon
-    name: repair-beam-weapon-center-large
+    name: hack-heal-weapon-large
     x: 11
     y: -7.5
     shootY: 6
     beamWidth: 0.8
-    repairSpeed: 1.4
+    repairSpeed: 1.8
 
     bullet: {
       maxRange: 120
