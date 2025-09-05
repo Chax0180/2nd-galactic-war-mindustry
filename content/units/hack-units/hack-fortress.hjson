@@ -50,23 +50,12 @@ bullet: {
       type: LaserBulletType
       length: 55
       damage: 40
-      width: 3
-      lifetime: 10
+      width: 2
 
-      lightningSpacing: 15
-      lightningLength: 5
-      lightningDelay: 0.9
-      lightningLengthRand: 15
-      lightningDamage: 80
-      lightningAngleRand: 50
-      largeHit: true
-
-      lightColor: 6b3aba
-      lightningColor: b58aff
 colors:[
 b58aff
 6b3aba
-000000
+ffffff
 ]
 }
 }
