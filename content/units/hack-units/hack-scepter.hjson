@@ -17,8 +17,8 @@ mirror: false
 x: 16
 y: 1
 top: false
-ejectEffect: casing2
-shootSound: artillery
+ejectEffect: casing3
+shootSound: bang
 shoot:{
 shots: 3
 shootDelay: 10
