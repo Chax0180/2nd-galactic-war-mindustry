@@ -48,10 +48,11 @@ ejectEffect: casing2
 shootSound: laser
 bullet: {
       type: LaserBulletType
-      length: 55
+      length: 120
       damage: 40
-      width: 2
-
+                    sideAngle: 45
+                    sideWidth: 1
+                    sideLength: 70
 colors:[
 b58aff
 6b3aba
