@@ -16,7 +16,6 @@ name: hack-reign-weapon
 reload: 20
 recoil: 5
 mirror: false
-flipSprite: true
 x: -21.5
 y: 1
 shootY: 11
