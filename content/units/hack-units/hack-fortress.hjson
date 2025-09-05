@@ -1,6 +1,6 @@
 type: mech
 name: Hacked Fortress
-description: Fires shocking artillery shells and a spread of plasma bolts at enemy targets.
+description: Fires shocking artillery shells and laser pulses at enemy targets.
 speed: 0.43
 rotateSpeed: 3
 targetAir: false
@@ -33,6 +33,19 @@ splashDamage: 50
                     lightningLength: 20
                     lightningColor: b58aff
                     lightningDamage: 30
+}
+}
+{
+type: hack-fortress-artillery
+reload: 90
+mirror: false
+x: 9
+y: 1
+top: false
+ejectEffect: casing2
+shootSound: artillery
+bullet: {
+
 }
 }
 ]
