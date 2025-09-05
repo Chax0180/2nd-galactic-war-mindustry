@@ -33,7 +33,7 @@ weapons: [
 
     reload: 60
     recoil: 0
-    shootSound: luminarymediumbeam
+    shootSound: luminarychargeloop
     continuous: true
     cooldownTime: 400
 
