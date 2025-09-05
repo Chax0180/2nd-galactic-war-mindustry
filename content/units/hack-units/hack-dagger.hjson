@@ -7,7 +7,7 @@ health: 150
 hitSize: 8
 weapons: [
 {
-type: hack-dagger-weapon
+name: hack-dagger-weapon
 reload: 10
 x: 4
 y: 2
