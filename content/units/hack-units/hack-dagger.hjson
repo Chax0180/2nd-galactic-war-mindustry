@@ -9,7 +9,6 @@ weapons: [
 {
 type: hack-dagger-weapon
 reload: 10
-speed: 3
 x: 4
 y: 2
 top: false
@@ -20,9 +19,10 @@ width: 7
 height: 9
 lifetime: 40
                     lightning: 3
-                    lightningLength: 4
+                    lightningLength: 10
                     lightningColor: b58aff
                     lightningDamage: 10
+speed: 3
 }
 }
 ]
