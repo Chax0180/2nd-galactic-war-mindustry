@@ -46,7 +46,7 @@ reload: 10
 mirror: false
 x: -16
 y: 1
-shootY: 9
+shootY: 8
 recoil: 3
 top: false
 shootSound: flame2
