@@ -43,7 +43,6 @@ splashDamage: 30
 name: hack-scepter-weapon
 reload: 10
 mirror: false
-flipSprite: true
 x: -16
 y: 1
 recoil: 3
