@@ -27,12 +27,12 @@ damage: 30
 width: 14
 height: 14
 lifetime: 100
-splashDamageRadius: 30
-splashDamage: 90
+splashDamageRadius: 20
+splashDamage: 50
                     lightning: 6
-                    lightningLength: 5
+                    lightningLength: 20
                     lightningColor: b58aff
-                    lightningDamage: 10
+                    lightningDamage: 30
 }
 }
 ]
