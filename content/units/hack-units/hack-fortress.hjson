@@ -52,7 +52,6 @@ bullet: {
       damage: 40
                     sideAngle: 135
                     sideWidth: 1
-                    sideLength: 29
 colors:[
 b58aff
 6b3aba
