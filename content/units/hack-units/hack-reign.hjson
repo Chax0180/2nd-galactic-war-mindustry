@@ -12,7 +12,7 @@ mechFrontSway: 1.9
 mechSideSway: 0.6
 weapons: [
 {
-type: hack-reign-weapon
+name: hack-reign-weapon
 reload: 20
 recoil: 5
 mirror: false
