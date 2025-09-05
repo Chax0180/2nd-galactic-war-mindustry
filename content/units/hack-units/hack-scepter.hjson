@@ -21,7 +21,7 @@ ejectEffect: casing3
 shootSound: bang
 shoot:{
 shots: 3
-shootDelay: 10
+shootDelay: 20
 }
 bullet: {
 type: BasicBulletType
