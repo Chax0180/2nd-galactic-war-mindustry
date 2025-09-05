@@ -1,0 +1,16 @@
+    //written in code syntax despite not being used at all in the code bc why not, helps organize lol
+luminary:[
+    base-metal
+light:   bddff2
+medium:  9bbccf
+dark:    82a3b5
+    accents + bullets/fx
+light:   b58aff
+dark:    6b3aba
+    unit-repaint
+light:   646567
+dark:    3c3837
+]
+    unit-luminary-decals
+light:   a98cdb
+dark:    796dcf
