@@ -19,7 +19,7 @@ width: 7
 height: 9
 lifetime: 40
                     lightning: 3
-                    lightningLength: 5
+                    lightningLength: 3
                     lightningColor: b58aff
                     lightningDamage: 10
 speed: 3
