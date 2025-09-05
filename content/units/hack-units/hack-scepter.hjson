@@ -16,6 +16,7 @@ recoil: 5
 mirror: false
 x: 16
 y: 1
+shootY: 8
 top: false
 ejectEffect: casing3
 shootSound: bang
@@ -45,6 +46,7 @@ reload: 10
 mirror: false
 x: -16
 y: 1
+shootY: 9
 recoil: 3
 top: false
 shootSound: flame2
