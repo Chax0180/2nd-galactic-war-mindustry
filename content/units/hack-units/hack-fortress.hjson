@@ -22,7 +22,6 @@ ejectEffect: casing2
 shootSound: artillery
 bullet: {
 type: ArtilleryBulletType
-speed: 4
 knockbackk: 1
 damage: 30
 width: 14
