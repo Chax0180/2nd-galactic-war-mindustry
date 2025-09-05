@@ -10,3 +10,36 @@ hitSize: 30
 drownTimeMultiplier: 6
 mechFrontSway: 1.9
 mechSideSway: 0.6
+weapons: [
+{
+type: hack-scepter-weapon
+reload: 60
+recoil: 5
+mirror: false
+x: 16
+y: 1
+top: false
+ejectEffect: casing3
+shootSound: bang
+shoot:{
+shots: 3
+shootDelay: 10
+}
+bullet: {
+type: BasicBulletType
+speed: 6
+knockbackk: 1
+damage: 30
+width: 11
+height: 20
+lifetime: 30
+splashDamageRadius: 15
+splashDamage: 30
+                    lightning: 3
+                    lightningLength: 15
+                    lightningColor: b58aff
+                    lightningDamage: 20
+}
+}
+]
+UNFINISHED
