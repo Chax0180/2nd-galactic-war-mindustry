@@ -30,7 +30,7 @@ lifetime: 100
 splashDamageRadius: 20
 splashDamage: 50
                     lightning: 6
-                    lightningLength: 20
+                    lightningLength: 14
                     lightningColor: b58aff
                     lightningDamage: 30
 }
