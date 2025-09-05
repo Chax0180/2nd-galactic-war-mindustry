@@ -10,7 +10,7 @@ drownTimeMultiplier: 4
 mechFrontSway: 1
 weapons: [
 {
-type: hack-scepter-weapon
+name: hack-scepter-weapon
 reload: 60
 recoil: 5
 mirror: false
@@ -40,7 +40,7 @@ splashDamage: 30
 }
 }
 {
-type: hack-scepter-weapon
+name: hack-scepter-weapon
 reload: 10
 mirror: false
 flipSprite: true
