@@ -50,6 +50,7 @@ shoot:{
       length: 400
       damage: 520
       width: 75
+      sideAngle: 135
       lifetime: 65
 
       lightningSpacing: 15
