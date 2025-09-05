@@ -50,8 +50,8 @@ bullet: {
       type: LaserBulletType
       length: 55
       damage: 40
-      width: 1
-      lifetime: 65
+      width: 3
+      lifetime: 10
 
       lightningSpacing: 15
       lightningLength: 5
