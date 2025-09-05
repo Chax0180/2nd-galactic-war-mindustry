@@ -50,7 +50,7 @@ bullet: {
       type: LaserBulletType
       length: 120
       damage: 40
-                    sideAngle: 45
+                    sideAngle: 135
                     sideWidth: 1
                     sideLength: 70
 colors:[
