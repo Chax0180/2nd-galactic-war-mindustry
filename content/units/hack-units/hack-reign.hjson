@@ -1,7 +1,6 @@
 type: mech
 name: Hacked Reign
 speed: 0.4
-accel: 0.04
 rotateSpeed: 1.65
 health: 24000
 armor: 18
@@ -22,10 +21,6 @@ shootY: 11
 top: false
 ejectEffect: casing4
 shootSound: bang
-shoot:{
-shots: 3
-shootDelay: 10
-}
 bullet: {
 type: BasicBulletType
 speed: 10
