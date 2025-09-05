@@ -11,7 +11,7 @@ hitSize: 13
 mechFrontSway: 0.55
 weapons: [
 {
-type: hack-fortress-artillery
+name: hack-fortress-artillery
 reload: 90
 recoil: 4
 mirror: false
@@ -37,7 +37,7 @@ splashDamage: 50
 }
 }
 {
-type: hack-fortress-artillery
+name: hack-fortress-artillery
 reload: 180
 recoil: 4
 mirror: false
