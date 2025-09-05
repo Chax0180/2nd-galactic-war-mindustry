@@ -9,6 +9,7 @@ weapons: [
 {
 type: hack-dagger-weapon
 reload: 10
+speed: 3
 x: 4
 y: 2
 top: false
