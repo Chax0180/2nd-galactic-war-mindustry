@@ -50,7 +50,6 @@ shoot:{
       length: 400
       damage: 520
       width: 75
-      sideAngle: 60
       sideLength: 55
       lifetime: 65
 
