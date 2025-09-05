@@ -1,4 +1,4 @@
-type: mech
+etype: mech
 name: Hacked Scepter
 speed: 0.36
 rotateSpeed: 2.1
@@ -28,9 +28,9 @@ type: BasicBulletType
 speed: 6
 knockbackk: 1
 damage: 30
-width: 14
-height: 14
-lifetime: 50
+width: 11
+height: 20
+lifetime: 30
 splashDamageRadius: 15
 splashDamage: 30
                     lightning: 3
