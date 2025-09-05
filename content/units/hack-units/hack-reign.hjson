@@ -12,14 +12,16 @@ mechFrontSway: 1.9
 mechSideSway: 0.6
 weapons: [
 {
-type: hack-scepter-weapon
-reload: 60
+type: hack-reign-weapon
+reload: 20
 recoil: 5
-mirror: false
-x: 16
+mirror: true
+alternate: true
+x: 21.5
 y: 1
+shootY: 11
 top: false
-ejectEffect: casing3
+ejectEffect: casing4
 shootSound: bang
 shoot:{
 shots: 3
@@ -27,9 +29,9 @@ shootDelay: 10
 }
 bullet: {
 type: BasicBulletType
-speed: 6
-knockbackk: 1
-damage: 30
+speed: 10
+knockbackk: 2
+damage: 50
 width: 11
 height: 20
 lifetime: 30
