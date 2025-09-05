@@ -23,6 +23,7 @@ shootSound: artillery
 bullet: {
 type: ArtilleryBulletType
 knockbackk: 1
+speed: 2
 damage: 30
 width: 14
 height: 14
