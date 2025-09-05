@@ -68,10 +68,10 @@ shootSound: flame2
           length: 240
           lifetime: 120
           interp: circleOut
-          cone: 5
-          colorFrom: 000000
-          colorTo: b58aff
-          sizeFrom: 20
+          cone: 15
+          colorFrom: b58aff
+          colorTo: 000000
+          sizeFrom: 6
           sizeTo: 0.6
         }
      }
