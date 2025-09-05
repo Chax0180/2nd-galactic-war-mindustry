@@ -11,10 +11,10 @@ mechFrontSway: 1
 weapons: [
 {
 type: hack-scepter-weapon
-reload: 90
+reload: 60
 recoil: 5
 mirror: false
-x: 9
+x: 16
 y: 1
 top: false
 ejectEffect: casing2
@@ -41,12 +41,12 @@ splashDamage: 30
 }
 {
 type: hack-scepter-weapon
-reload: 5
+reload: 10
 mirror: false
 flipSprite: true
-x: -9
+x: -16
 y: 1
-recoil: 5
+recoil: 3
 top: false
 shootSound: flame2
     bullet: {
