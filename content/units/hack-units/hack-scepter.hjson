@@ -70,7 +70,7 @@ shootSound: flame2
           interp: circleOut
           cone: 15
           colorFrom: b58aff
-          colorTo: 000000
+          colorTo: 6b3aba
           sizeFrom: 6
           sizeTo: 0.6
         }
