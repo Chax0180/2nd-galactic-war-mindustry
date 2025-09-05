@@ -8,3 +8,34 @@ stepShake: 0.15
 hitSize: 22
 drownTimeMultiplier: 4
 mechFrontSway: 1
+weapons: [
+{
+type: hack-scepter-weapon
+reload: 90
+mirror: false
+x: 9
+y: 1
+top: false
+ejectEffect: casing2
+shootSound: artillery
+shoot:{
+shots: 3
+shootDelay: 10
+}
+bullet: {
+type: BasicBulletType
+speed: 6
+knockbackk: 1
+damage: 30
+width: 14
+height: 14
+lifetime: 50
+splashDamageRadius: 15
+splashDamage: 30
+                    lightning: 3
+                    lightningLength: 15
+                    lightningColor: b58aff
+                    lightningDamage: 20
+}
+}
+]
