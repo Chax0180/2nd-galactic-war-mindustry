@@ -13,6 +13,7 @@ weapons: [
 {
 type: hack-fortress-artillery
 reload: 90
+recoil: 4
 mirror: false
 x: 9
 y: 1
@@ -37,15 +38,36 @@ splashDamage: 50
 }
 {
 type: hack-fortress-artillery
-reload: 90
+reload: 180
+recoil: 4
 mirror: false
-x: 9
+x: -9
 y: 1
 top: false
 ejectEffect: casing2
-shootSound: artillery
+shootSound: laser
 bullet: {
+      type: LaserBulletType
+      length: 55
+      damage: 40
+      width: 1
+      lifetime: 65
 
+      lightningSpacing: 15
+      lightningLength: 5
+      lightningDelay: 0.9
+      lightningLengthRand: 15
+      lightningDamage: 80
+      lightningAngleRand: 50
+      largeHit: true
+
+      lightColor: 6b3aba
+      lightningColor: b58aff
+colors:[
+b58aff
+6b3aba
+000000
+]
 }
 }
 ]
