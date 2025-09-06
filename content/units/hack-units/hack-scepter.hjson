@@ -60,7 +60,7 @@ shootSound: flame2
       status: absolute-overload
       statusDuration: 30
       makeFire: false
-      lifetime: 30
+      lifetime: 20
       despawnEffect: none
       width: 10
       height: 0.01
@@ -71,7 +71,7 @@ shootSound: flame2
           length: 240
           lifetime: 120
           interp: circleOut
-          cone: 15
+          cone: 10
           colorFrom: b58aff
           colorTo: 6b3aba
           sizeFrom: 6
