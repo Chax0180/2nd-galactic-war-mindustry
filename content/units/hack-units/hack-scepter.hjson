@@ -52,7 +52,7 @@ top: false
 outlineColor: 556f7d
 shootSound: flame2
     bullet: {
-      damage: 120
+      damage: 40
       shootEffect: none
       speed: 6
       pierce: true
