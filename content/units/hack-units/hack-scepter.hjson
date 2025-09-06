@@ -49,6 +49,7 @@ y: 1
 shootY: 8
 recoil: 3
 top: false
+outlineColor: 556f7d
 shootSound: flame2
     bullet: {
       damage: 120
