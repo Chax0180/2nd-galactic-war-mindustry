@@ -42,7 +42,7 @@ splashDamage: 30
 }
 {
 name: hack-scepter-flamethrower
-reload: 10
+reload: 20
 mirror: false
 x: -16
 y: 1
