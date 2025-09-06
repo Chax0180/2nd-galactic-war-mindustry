@@ -14,7 +14,6 @@ weapons: [
 name: hack-reign-weapon
 reload: 20
 recoil: 5
-mirror: false
 x: 21.5
 y: 1
 shootY: 11
@@ -37,15 +36,18 @@ splashDamage: 30
                     lightningDamage: 20
 }
 }
-]
-abilities: [
-   {
-    type: EnergyFieldAbility
-    damage: 1.7
-    reload: 90
-    range: 240
-    color: b58aff
-    y: 3
-    x: -20
-  }
+{
+name: hack-reign-railgun
+reload: 20
+recoil: 5
+x: 21.5
+y: 1
+shootY: 11
+top: false
+ejectEffect: casing4
+shootSound: bang
+bullet: {
+type: RailBulletType
+}
+}
 ]
