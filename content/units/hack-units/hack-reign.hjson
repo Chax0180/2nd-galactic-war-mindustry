@@ -1,4 +1,4 @@
-type: mech
+etype: mech
 name: Hacked Reign
 speed: 0.4
 rotateSpeed: 1.65
@@ -72,8 +72,8 @@ type: RailBulletType
                     hitEffect: massiveExplosion
                     damage: 655
                     pierceDamageFactor: 0.5
-          topColor: ffffff
-          backColor: b58aff
+trailColor: b58aff
+hitColor: 6b3aba
 }
 }
 ]
