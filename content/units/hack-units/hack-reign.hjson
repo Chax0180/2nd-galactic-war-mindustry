@@ -59,6 +59,9 @@ bullet: {
   pointEffectSpace: 60
   lightColor: b58aff
   hitColor: b58aff
+  status: absolute-overload
+  statusDuration: 90
+  
 
   //line particles
   lineEffect: {
