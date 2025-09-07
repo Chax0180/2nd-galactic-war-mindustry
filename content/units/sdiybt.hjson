@@ -8,9 +8,12 @@ mechFrontSway: 0.25
 range: 40
 weapons:[
 name: sdiybt-nuclear-bomb
-shootSound: overkill
+shootSound: sdiybt-nuke
 chargeSound: start-diggin-in-yo-butt-twin
 shoot:{
 firstShotDelay: 240
+}
+bullet: {
+killShooter: true
 }
 ]
