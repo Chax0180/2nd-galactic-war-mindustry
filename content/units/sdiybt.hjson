@@ -11,8 +11,8 @@ weapons:[
 name: sdiybt-nuclear-bomb
 shootSound: sdiybt-nuke
 chargeSound: start-diggin-in-yo-butt-twin
-soundPitchMax: 0
-soundPitchMin: 0
+soundPitchMax: 1
+soundPitchMin: 1
 reload: 6000
 shoot:{
 firstShotDelay: 240
