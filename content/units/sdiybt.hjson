@@ -16,8 +16,8 @@ firstShotDelay: 240
 }
 bullet: {
 killShooter: true
-despawnEffect: impactExplosion
-hitEffect: impactExplosion
+despawnEffect: impactReactorExplosion
+hitEffect: impactReactorExplosion
 splashDamage: 5000
 splashDamageRadius: 100
 }
