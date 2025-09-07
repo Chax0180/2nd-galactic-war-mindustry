@@ -102,10 +102,10 @@ bullet: {
   {
     type: ParticleEffect
     particles: 40
-    length: 60
+    length: 180
     lifetime: 120
     interp: circleOut
-    cone: 15
+    cone: 30
     length: 50
     colorFrom: b58aff
     colorTo: 6b3aba
