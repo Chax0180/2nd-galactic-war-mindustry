@@ -53,6 +53,17 @@ firstShotDelay: 70
 }
 bullet: {
 type: RailBulletType
+      smokeEffect: {
+          type: ParticleEffect
+          particles: 25
+          length: 80
+          lifetime: 40
+          interp: circleOut
+          cone: 8
+          colorFrom: b58aff
+          colorTo: 6b3aba
+          sizeFrom: 4
+          sizeTo: 0.6
 }
 }
 ]
