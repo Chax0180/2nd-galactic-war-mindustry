@@ -37,6 +37,8 @@ type: LightningBulletType
                     lightningLength: 8
                     lightningLengthRand: 10
                     shootEffect: shootHeal
+status: otherworldly-shock
+statusDuration: 300
 }
 }
 ]
