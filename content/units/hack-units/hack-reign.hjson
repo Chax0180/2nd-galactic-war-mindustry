@@ -87,8 +87,9 @@ bullet: {
     colorTo: 6b3aba
   }
 
-  //piercing particle
-  pierceEffect: {
+  //impact particle
+  pierceEffect:[
+  {
     type: WaveEffect
     lifetime: 20
     sizeFrom: 0
@@ -98,7 +99,20 @@ bullet: {
     colorFrom: b58aff
     colorTo: 6b3aba
   }
-
+    smokeEffect: {
+    type: ParticleEffect
+    particles: 40
+    length: 60
+    lifetime: 120
+    interp: circleOut
+    cone: 15
+    length: 50
+    colorFrom: b58aff
+    colorTo: 6b3aba
+    sizeFrom: 4
+    sizeTo: 0.6
+  }
+]
   //smoke at firing point
   smokeEffect: {
     type: ParticleEffect
