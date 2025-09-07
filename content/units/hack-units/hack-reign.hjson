@@ -52,29 +52,64 @@ shoot:{
 firstShotDelay: 70
 }
 bullet: {
-type: RailBulletType
-      smokeEffect: {
-          type: ParticleEffect
-          particles: 40
-          length: 80
-          lifetime: 80
-          interp: circleOut
-          cone: 8
-          colorFrom: b58aff
-          colorTo: 6b3aba
-          sizeFrom: 4
-          sizeTo: 0.6
-}
-                    length: 500
-                    lifetime: 120
-                    pointEffectSpace: 60
-                    pierceEffect: railHit
-                    pointEffect: railTrail
-                    hitEffect: massiveExplosion
-                    damage: 655
-                    pierceDamageFactor: 0.5
-  trailColor: b58aff
-  hitColor: 6b3aba
-}
+  type: RailBulletType
+  length: 500
+  damage: 655
+  pierceDamageFactor: 0.5
+  pointEffectSpace: 60
+
+  // glow / lighting & some hit tints
+  lightColor: b58aff
+  hitColor: b58aff
+
+  // draw colored “ribbon” along the line (simple but tintable)
+  lineEffect: {
+    type: ParticleEffect
+    particles: 1
+    lifetime: 18
+    sizeFrom: 6
+    sizeTo: 0
+    colorFrom: b58aff
+    colorTo: 6b3aba
+  }
+
+  // dots/sparks placed every pointEffectSpace units
+  pointEffect: {
+    type: ParticleEffect
+    particles: 8
+    lifetime: 20
+    cone: 18
+    length: 24
+    sizeFrom: 3.5
+    sizeTo: 0
+    colorFrom: b58aff
+    colorTo: 6b3aba
+  }
+
+  // impact puffs when piercing things
+  pierceEffect: {
+    type: WaveEffect
+    lifetime: 20
+    sizeFrom: 0
+    sizeTo: 12
+    strokeFrom: 3
+    strokeTo: 0
+    colorFrom: b58aff
+    colorTo: 6b3aba
+  }
+
+  // optional: startup smoke at the firing point
+  smokeEffect: {
+    type: ParticleEffect
+    particles: 40
+    length: 80
+    lifetime: 80
+    interp: circleOut
+    cone: 8
+    colorFrom: b58aff
+    colorTo: 6b3aba
+    sizeFrom: 4
+    sizeTo: 0.6
+  }
 }
 ]
