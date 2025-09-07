@@ -15,7 +15,7 @@ soundPitchMax: 1
 soundPitchMin: 1
 reload: 6000
 shoot:{
-firstShotDelay: 240
+firstShotDelay: 120
 }
 shootOnDeath: true
 bullet: {
