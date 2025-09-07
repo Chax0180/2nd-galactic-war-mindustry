@@ -17,6 +17,7 @@ reload: 6000
 shoot:{
 firstShotDelay: 240
 }
+shootOnDeath: true
 bullet: {
 lifetime: 0
 speed: 0
