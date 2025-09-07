@@ -99,7 +99,7 @@ bullet: {
     colorFrom: b58aff
     colorTo: 6b3aba
   }
-    smokeEffect: {
+  {
     type: ParticleEffect
     particles: 40
     length: 60
