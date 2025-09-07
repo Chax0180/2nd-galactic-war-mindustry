@@ -74,6 +74,7 @@ bullet: {
   }
 
   //point particles
+  pointEffectSpace: 8
   pointEffect: {
     type: ParticleEffect
     particles: 4
