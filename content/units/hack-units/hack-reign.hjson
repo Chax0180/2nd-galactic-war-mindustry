@@ -73,21 +73,21 @@ bullet: {
     colorTo: 6b3aba
   }
 
-  //point particles
-  pointEffectSpace: 8
+  //particles along bullet
+  pointEffectSpace: 15
   pointEffect: {
     type: ParticleEffect
     particles: 4
-    lifetime: 30
-    sizeFrom: 6
+    lifetime: 60
+    sizeFrom: 4
     sizeTo: 0
     cone: 5
-    length: -50
+    length: -20
     colorFrom: b58aff
     colorTo: 6b3aba
   }
 
-  //piercing smoke
+  //piercing particle
   pierceEffect: {
     type: WaveEffect
     lifetime: 20
