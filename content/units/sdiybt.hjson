@@ -1,7 +1,7 @@
 type: mech
 name: ME.M-67 SDIYBT
 description: A modified crawler that carries a nuclear warhead. SDIYBT stands for 'Super Destructive Instantaneous Yellow Bomb Transporter.'
-speed: 1
+speed: 2
 health: 150
 hitSize: 8
 mechFrontSway: 0.25
@@ -15,5 +15,9 @@ firstShotDelay: 240
 }
 bullet: {
 killShooter: true
+despawnEffect: impactExplosion
+hitEffect: impactExplosion
+splashDamage: 5000
+splashDamageRadius: 100
 }
 ]
