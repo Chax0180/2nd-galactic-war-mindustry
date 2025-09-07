@@ -75,12 +75,11 @@ bullet: {
   //point particles
   pointEffect: {
     type: ParticleEffect
-    particles: 8
-    lifetime: 50
-    cone: 25
-    length: 24
+    particles: 4
+    lifetime: 30
     sizeFrom: 6
     sizeTo: 0
+    length: -50
     colorFrom: b58aff
     colorTo: 6b3aba
   }
