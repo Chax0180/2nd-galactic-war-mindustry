@@ -63,8 +63,8 @@ bullet: {
   //line particles
   lineEffect: {
     type: ParticleEffect
-    particles: 1
-    lifetime: 18
+    particles: 4
+    lifetime: 30
     sizeFrom: 6
     sizeTo: 0
     colorFrom: b58aff
@@ -87,16 +87,16 @@ bullet: {
   //piercing smoke
   pierceEffect: {
     type: WaveEffect
-    lifetime: 20
+    lifetime: 60
     sizeFrom: 0
     sizeTo: 40
-    strokeFrom: 6
+    strokeFrom: 12
     strokeTo: 0
     colorFrom: b58aff
     colorTo: 6b3aba
   }
 
-  //smoke at the firing point
+  //smoke at firing point
   smokeEffect: {
     type: ParticleEffect
     particles: 40
