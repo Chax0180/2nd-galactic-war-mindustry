@@ -66,12 +66,15 @@ type: RailBulletType
           sizeTo: 0.6
 }
                     length: 500
+                    lifetime: 120
                     pointEffectSpace: 60
                     pierceEffect: railHit
                     pointEffect: railTrail
                     hitEffect: massiveExplosion
                     damage: 655
                     pierceDamageFactor: 0.5
+  trailColor: b58aff
+  hitColor: 6b3aba
 }
 }
 ]
