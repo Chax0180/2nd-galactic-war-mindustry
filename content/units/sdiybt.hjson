@@ -18,6 +18,8 @@ shoot:{
 firstShotDelay: 240
 }
 bullet: {
+lifetime: 0
+speed: 0
 killShooter: true
 despawnEffect: impactReactorExplosion
 hitEffect: impactReactorExplosion
