@@ -41,6 +41,7 @@ splashDamage: 30
 name: hack-reign-railgun
 reload: 300
 recoil: 10
+mirror: false
 x: -21.5
 y: 1
 shootY: 11
