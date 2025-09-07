@@ -57,12 +57,10 @@ bullet: {
   damage: 655
   pierceDamageFactor: 0.5
   pointEffectSpace: 60
-
-  // glow / lighting & some hit tints
   lightColor: b58aff
   hitColor: b58aff
 
-  // draw colored “ribbon” along the line (simple but tintable)
+  //line particles
   lineEffect: {
     type: ParticleEffect
     particles: 1
@@ -73,7 +71,7 @@ bullet: {
     colorTo: 6b3aba
   }
 
-  // dots/sparks placed every pointEffectSpace units
+  //pointEffect
   pointEffect: {
     type: ParticleEffect
     particles: 8
@@ -86,19 +84,19 @@ bullet: {
     colorTo: 6b3aba
   }
 
-  // impact puffs when piercing things
+  //piercing smoke
   pierceEffect: {
     type: WaveEffect
     lifetime: 20
     sizeFrom: 0
-    sizeTo: 12
-    strokeFrom: 3
+    sizeTo: 40
+    strokeFrom: 6
     strokeTo: 0
     colorFrom: b58aff
     colorTo: 6b3aba
   }
 
-  // optional: startup smoke at the firing point
+  //smoke at the firing point
   smokeEffect: {
     type: ParticleEffect
     particles: 40
