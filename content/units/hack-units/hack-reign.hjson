@@ -67,6 +67,7 @@ bullet: {
     lifetime: 30
     sizeFrom: 6
     sizeTo: 0
+    length: -50
     colorFrom: b58aff
     colorTo: 6b3aba
   }
