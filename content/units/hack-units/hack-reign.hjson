@@ -55,9 +55,9 @@ bullet: {
 type: RailBulletType
       smokeEffect: {
           type: ParticleEffect
-          particles: 25
+          particles: 40
           length: 80
-          lifetime: 40
+          lifetime: 80
           interp: circleOut
           cone: 8
           colorFrom: b58aff
@@ -65,6 +65,13 @@ type: RailBulletType
           sizeFrom: 4
           sizeTo: 0.6
 }
+                    length: 500
+                    pointEffectSpace: 60
+                    pierceEffect: railHit
+                    pointEffect: railTrail
+                    hitEffect: massiveExplosion
+                    damage: 655
+                    pierceDamageFactor: 0.5
 }
 }
 ]
