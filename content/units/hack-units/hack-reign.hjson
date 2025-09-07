@@ -72,11 +72,6 @@ type: RailBulletType
                     hitEffect: massiveExplosion
                     damage: 655
                     pierceDamageFactor: 0.5
-colors:[
-b58aff
-6b3aba
-ffffff
-]
 }
 }
 ]
