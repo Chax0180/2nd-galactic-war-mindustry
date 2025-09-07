@@ -6,3 +6,11 @@ health: 150
 hitSize: 8
 mechFrontSway: 0.25
 range: 40
+weapons:[
+name: sdiybt-nuclear-bomb
+shootSound: overkill
+chargeSound: start-diggin-in-yo-butt-twin
+shoot:{
+firstShotDelay: 240
+}
+]
