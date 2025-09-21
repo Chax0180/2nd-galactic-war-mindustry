@@ -14,7 +14,7 @@ loopSoundVolume: 0.03
       x: 10
         y: -2
         name: emancipator-autocannon
-        reload: 41.16
+        reload: 20.58
         recoil: 0.2
         mirror: true
         alternate: true
@@ -22,10 +22,6 @@ loopSoundVolume: 0.03
         rotate: true
         rotationLimit: 30
         shootSound: shootAlt
-shoot: {
-shots: 2
-shotDelay: 20.58
-}
         bullet: {
           type: BasicBulletType
             speed: 10
