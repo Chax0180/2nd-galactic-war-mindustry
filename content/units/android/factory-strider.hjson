@@ -8,7 +8,7 @@ abilities: [
   {
     type: UnitSpawnAbility
     spawnTime: 600
-    unit: devestator
+    unit: devastator
     spawnX: 0
     spawnY: 0
   }
