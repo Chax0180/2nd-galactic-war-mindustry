@@ -1,0 +1,78 @@
+type: legs
+name: Factory Strider
+description: A large, walking factory that produces Android Devastators.
+hitSize: 26
+health: 18000
+armor: 13
+abilities: [
+  {
+    type: UnitSpawnAbility
+    spawnTime: 600
+    unit: devestator
+    spawnX: 0
+    spawnY: 0
+  }
+]
+legCount: 4
+legMoveSpace: 0.8
+legPairOffset: 3
+legLength: 75
+legExtension: -17
+legBaseOffset: 8
+stepShake: 2
+legLengthScl: 0.93
+buildSpeed: 2.2
+rippleScale: 3
+legSpeed: 0.19
+drag: 0.1
+speed: 0.41
+rotateSpeed: 1.95
+hovering: false
+drownTimeMultiplier: 2
+legSplashDamage: 20
+legSplashRange: 32
+itemCapacity: 200
+weapons: [
+  {
+    x: 0
+    name: factory-strider-cannon
+    y: 6
+    reload: 600
+    shootSound: mediumCannon
+    mirror: true
+    alternate: false
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    rotate: true
+    inaccuracy: 5
+    shoot: {
+      shots: 2
+      shotDelay: 40
+    }
+    bullet: {
+      type: ArtilleryBulletType
+      width: 9
+      height: 11
+      speed: 10
+      lifetime: 40
+      damage: 120
+      pierceArmor: false
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+            splashDamageRadius: 20
+            splashDamage: 30
+            trailChance: -1
+            hitEffect: flakExplosion
+      hitSound: largeExplosion
+    }
+  }
+}
