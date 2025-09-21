@@ -10,7 +10,7 @@ abilities: [
     spawnTime: 600
     unit: devastator
     spawnX: 0
-    spawnY: 0
+    spawnY: -20
   }
 ]
 legCount: 4
@@ -37,7 +37,7 @@ weapons: [
     x: 0
     name: factory-strider-cannon
     y: 6
-    reload: 600
+    reload: 300
     shootSound: mediumCannon
     mirror: true
     alternate: false
@@ -52,9 +52,9 @@ weapons: [
       }
     ]
     rotate: true
-    inaccuracy: 5
+    inaccuracy: 0
     shoot: {
-      shots: 2
+      shots: 1
       shotDelay: 40
     }
     bullet: {
