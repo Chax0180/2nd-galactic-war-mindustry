@@ -39,8 +39,7 @@ weapons: [
     y: 6
     reload: 300
     shootSound: mediumCannon
-    mirror: true
-    alternate: false
+    mirror: false
     parts: [
       {
         type: RegionPart
@@ -54,7 +53,7 @@ weapons: [
     rotate: true
     inaccuracy: 0
     shoot: {
-      shots: 1
+      shots: 2
       shotDelay: 40
     }
     bullet: {
