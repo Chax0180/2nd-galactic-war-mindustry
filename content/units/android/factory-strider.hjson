@@ -56,7 +56,7 @@ weapons: [
       pierceArmor: false
       trailChance: -1
       trailLength: 10
-      trailWidth: 1
+      trailWidth: 13
             splashDamageRadius: 20
             splashDamage: 30
             trailChance: -1
