@@ -7,10 +7,17 @@ armor: 13
 abilities: [
   {
     type: UnitSpawnAbility
-    spawnTime: 600
+    spawnTime: 900
     unit: devastator
     spawnX: 0
     spawnY: -20
+  }
+  {
+    type: UnitSpawnAbility
+    spawnTime:1800
+    unit: heavy-devastator
+    spawnX: 0
+    spawnY: -40
   }
 ]
 legCount: 4
