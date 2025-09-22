@@ -10,14 +10,14 @@ abilities: [
     spawnTime: 900
     unit: devastator
     spawnX: 0
-    spawnY: -20
+    spawnY: -10
   }
   {
     type: UnitSpawnAbility
     spawnTime:1800
     unit: heavy-devastator
     spawnX: 0
-    spawnY: -40
+    spawnY: -20
   }
 ]
 legCount: 4
@@ -74,4 +74,30 @@ weapons: [
     frontColor: e07863
     }
   }
+{
+name: factory-strider-mg
+reload: 150
+shoot: {
+shots: 20
+shotDelay: 5
+}
+shootSound: lasershot
+x: 5
+y: 8
+top: false
+bullet: {
+type: BasicBulletType
+width: 7
+height: 9
+lifetime: 40
+speed: 10
+damage: 20
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+    trailColor: e35336
+    backColor: e35336
+    lightColor: e07863
+    frontColor: e07863
+}
 ]
