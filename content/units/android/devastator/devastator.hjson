@@ -6,7 +6,7 @@ health: 600
 hitSize: 16
 weapons: [
 {
-name: devastator-gun
+name: devastator-weapon
 reload: 90
 inaccuracy: 2
 shoot: {
