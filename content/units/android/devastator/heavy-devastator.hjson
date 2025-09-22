@@ -6,7 +6,7 @@ health: 800
 hitSize: 16
 weapons: [
 {
-name: devastator-gun
+name: devastator-mg
 reload: 150
 inaccuracy: 5
 shoot: {
@@ -32,6 +32,24 @@ damage: 20
     backColor: e35336
     lightColor: e07863
     frontColor: e07863
+}
+}
+{
+name: devastator-shield
+reload: 60
+inaccuracy: 0
+shootSound: swish
+x: 4
+y: 2
+top: false
+mirror: false
+bullet: {
+type: BasicBulletType
+width: 18
+height: 5
+lifetime: 1
+speed: 0
+damage: 100
 }
 }
 ]
