@@ -7,7 +7,11 @@ hitSize: 16
 weapons: [
 {
 name: devastator-gun
-reload: 10
+reload: 90
+shoot: {
+shots: 2
+shotDelay: 10
+}
 x: 4
 y: 2
 top: false
@@ -17,6 +21,11 @@ width: 7
 height: 9
 lifetime: 40
 speed: 10
+damage: 20
+    trailColor: e35336
+    backColor: e35336
+    lightColor: e07863
+    frontColor: e07863
 }
 }
 ]
