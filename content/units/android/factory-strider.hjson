@@ -61,7 +61,10 @@ weapons: [
             splashDamage: 30
             trailChance: -1
             hitEffect: flakExplosion
-      hitSound: largeExplosion
+    trailColor: e35336
+    backColor: e35336
+    lightColor: e07863
+    frontColor: e07863
     }
   }
 ]
