@@ -1,0 +1,36 @@
+type: mech
+name: Heavy-Devastator
+description: Fires bullets at enemy targets.
+speed: 0.3
+health: 800
+hitSize: 16
+weapons: [
+{
+name: devastator-gun
+reload: 90
+shoot: {
+shots: 20
+shotDelay: 3
+}
+shootSound: laserShot
+x: 4
+y: 2
+top: false
+mirror: false
+bullet: {
+type: BasicBulletType
+width: 7
+height: 9
+lifetime: 40
+speed: 10
+damage: 20
+      trailChance: -1
+      trailLength: 10
+      trailWidth: 1
+    trailColor: e35336
+    backColor: e35336
+    lightColor: e07863
+    frontColor: e07863
+}
+}
+]
