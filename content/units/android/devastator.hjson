@@ -24,7 +24,7 @@ speed: 10
 damage: 20
       trailChance: -1
       trailLength: 10
-      trailWidth: 7
+      trailWidth: 1
     trailColor: e35336
     backColor: e35336
     lightColor: e07863
