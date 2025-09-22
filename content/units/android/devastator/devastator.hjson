@@ -12,6 +12,7 @@ shoot: {
 shots: 2
 shotDelay: 10
 }
+shootSound: laserShot
 x: 4
 y: 2
 top: false
