@@ -55,7 +55,7 @@ weapons: [
       damage: 120
       pierceArmor: false
       trailChance: -1
-      trailLength: 10
+      trailLength: 2
       trailWidth: 13
             splashDamageRadius: 20
             splashDamage: 30
