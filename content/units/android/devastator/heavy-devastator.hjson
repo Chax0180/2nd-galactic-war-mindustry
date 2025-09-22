@@ -7,12 +7,12 @@ hitSize: 16
 weapons: [
 {
 name: devastator-gun
-reload: 90
+reload: 150
 shoot: {
 shots: 20
-shotDelay: 3
+shotDelay: 5
 }
-shootSound: laserShot
+shootSound: lasershot
 x: 4
 y: 2
 top: false
