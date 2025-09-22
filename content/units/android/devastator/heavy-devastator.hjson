@@ -8,6 +8,7 @@ weapons: [
 {
 name: devastator-gun
 reload: 150
+inaccuracy: 5
 shoot: {
 shots: 20
 shotDelay: 5
