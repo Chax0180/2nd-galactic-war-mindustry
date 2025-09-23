@@ -4,7 +4,7 @@ description: Fires bullets at enemy targets.
 speed: 0.3
 health: 800
 hitSize: 16
-outlineColor: 2f2f2f
+outlineColor: 37383d
 weapons: [
 {
 name: heavy-devastator-mg
