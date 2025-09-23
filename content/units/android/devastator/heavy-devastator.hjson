@@ -44,7 +44,6 @@ shootSound: swish
 x: -7
 y: 2
 rotate: false
-mirror: true
 recoil: 0
 noAttack: true
 damage: 0
