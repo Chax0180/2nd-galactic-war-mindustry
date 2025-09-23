@@ -2,6 +2,7 @@ type: legs
 name: Factory Strider
 description: A large, walking factory that produces Android Devastators.
 hitSize: 26
+speed: 0.165
 health: 18000
 armor: 13
 outlineColor: 37383d
