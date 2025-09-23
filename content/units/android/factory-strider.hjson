@@ -4,6 +4,7 @@ description: A large, walking factory that produces Android Devastators.
 hitSize: 26
 health: 18000
 armor: 13
+outlineColor: 37383d
 abilities: [
   {
     type: UnitSpawnAbility
