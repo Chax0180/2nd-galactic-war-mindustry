@@ -41,11 +41,14 @@ name: heavy-devastator-shield
 reload: 60
 inaccuracy: 0
 shootSound: swish
+mirror: false
 x: -7
 y: 2
 rotate: false
 recoil: 0
 noAttack: true
+controllable: false
+aiControllable: false
 damage: 0
 shadow: 1
 }
