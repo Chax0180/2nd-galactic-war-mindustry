@@ -57,5 +57,13 @@ recoil: -0.5
 }
 ]
 abilities: [
-type: ShieldArcAbility
+  {
+  type: ShieldArcAbility
+      radius: 5
+      angle: 180
+      width: 10
+      regen: .5
+      max: 500
+      whenFiring: false
+  }
 ]
