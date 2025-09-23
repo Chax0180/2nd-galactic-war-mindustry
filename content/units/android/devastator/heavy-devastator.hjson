@@ -41,7 +41,7 @@ reload: 60
 inaccuracy: 0
 shootSound: swish
 x: -7
-y: 0
+y: 2
 shootx: 5
 top: false
 mirror: false
@@ -52,7 +52,10 @@ height: 5
 lifetime: 1
 speed: 0
 damage: 100
-recoil: -1
+recoil: -0.5
 }
 }
+]
+abilities: [
+type: ShieldArcAbility
 ]
