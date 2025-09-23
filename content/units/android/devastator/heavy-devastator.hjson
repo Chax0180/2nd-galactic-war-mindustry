@@ -40,7 +40,7 @@ name: heavy-devastator-shield
 reload: 60
 inaccuracy: 0
 shootSound: swish
-x: 5
+x: -5
 y: 0
 shootx: 5
 top: false
