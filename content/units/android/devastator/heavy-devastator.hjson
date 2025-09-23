@@ -5,6 +5,7 @@ speed: 0.3
 health: 800
 hitSize: 16
 outlineColor: 37383d
+mechLegColor: 37383d
 crushDamage: 0.5
 weapons: [
 {
