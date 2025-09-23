@@ -61,6 +61,8 @@ rotate: false
 mirror: true
 recoil: 0
 noAttack: true
+controllable: false
+aiControllable: false
 damage: 0
 shadow: 1
 }
