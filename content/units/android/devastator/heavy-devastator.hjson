@@ -7,7 +7,7 @@ hitSize: 16
 outlineColor: 2f2f2f
 weapons: [
 {
-name: devastator-mg
+name: heavy-devastator-mg
 reload: 150
 inaccuracy: 5
 shoot: {
@@ -36,12 +36,13 @@ damage: 20
 }
 }
 {
-name: devastator-shield
+name: heavy-devastator-shield
 reload: 60
 inaccuracy: 0
 shootSound: swish
 x: 5
 y: 0
+shootx: 5
 top: false
 mirror: false
 bullet: {
