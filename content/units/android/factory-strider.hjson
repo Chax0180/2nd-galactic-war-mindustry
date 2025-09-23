@@ -76,7 +76,7 @@ weapons: [
     }
   }
 {
-name: factory-strider-mg
+name: heavy-devastator-mg
 reload: 150
 shoot: {
 shots: 20
