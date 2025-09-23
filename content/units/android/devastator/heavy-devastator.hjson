@@ -15,7 +15,7 @@ shots: 20
 shotDelay: 5
 }
 shootSound: lasershoot
-x: 5
+x: 7
 y: 0
 top: false
 mirror: false
@@ -40,7 +40,7 @@ name: heavy-devastator-shield
 reload: 60
 inaccuracy: 0
 shootSound: swish
-x: -5
+x: -7
 y: 0
 shootx: 5
 top: false
