@@ -65,6 +65,6 @@ abilities: [
       regen: .5
       max: 500
       color: e35336
-      whenFiring: false
+      whenShooting: false
   }
 ]
