@@ -60,13 +60,13 @@ weapons: [
       height: 15
       speed: 10
       lifetime: 40
-      damage: 120
+      damage: 280
       pierceArmor: false
       trailChance: -1
       trailLength: 10
       trailWidth: 2
             splashDamageRadius: 20
-            splashDamage: 30
+            splashDamage: 50
             trailChance: -1
             hitEffect: flakExplosion
     trailColor: e35336
