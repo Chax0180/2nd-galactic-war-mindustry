@@ -15,8 +15,8 @@ shots: 20
 shotDelay: 5
 }
 shootSound: lasershoot
-x: 4
-y: 2
+x: 5
+y: 0
 top: false
 mirror: false
 bullet: {
@@ -40,8 +40,8 @@ name: devastator-shield
 reload: 60
 inaccuracy: 0
 shootSound: swish
-x: 4
-y: 2
+x: 5
+y: 0
 top: false
 mirror: false
 bullet: {
@@ -51,6 +51,7 @@ height: 5
 lifetime: 1
 speed: 0
 damage: 100
+recoil: -1
 }
 }
 ]
