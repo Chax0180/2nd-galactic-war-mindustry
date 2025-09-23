@@ -4,6 +4,7 @@ description: Fires bullets at enemy targets.
 speed: 0.3
 health: 600
 hitSize: 16
+outlineColor: 2f2f2f
 weapons: [
 {
 name: devastator-weapon
