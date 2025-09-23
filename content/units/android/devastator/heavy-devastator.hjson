@@ -1,6 +1,6 @@
 type: mech
-name: Heavy-Devastator
-description: Fires a barrage bullets at enemy targets, and projects a shield to block bullets. Able to slowly crush down walls using its shield.
+name: Heavy Devastator
+description: Fires a barrage bullets at enemy targets, and projects a shield to block bullets. Able to slowly crush down walls.
 speed: 0.3
 health: 800
 hitSize: 16
@@ -49,7 +49,6 @@ recoil: 0
 noAttack: true
 damage: 0
 shadow: 1
-}
 }
 ]
 abilities: [
