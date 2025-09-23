@@ -9,7 +9,7 @@ mechLegColor: 37383d
 weapons: [
 {
 name: devastator-weapon
-reload: 90
+reload: 40
 inaccuracy: 2
 shoot: {
 shots: 2
@@ -25,7 +25,7 @@ width: 7
 height: 9
 lifetime: 40
 speed: 10
-damage: 20
+damage: 50
       trailChance: -1
       trailLength: 10
       trailWidth: 1
