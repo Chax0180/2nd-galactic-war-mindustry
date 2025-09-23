@@ -3,6 +3,7 @@ lowAltitude: true
 name: Pelican
 description: A muilti-purpose VTOL transport shuttle designed for carrying vehicles and troops.
 immunities: [burning, wet]
+omniMovement: false
 drag: 0.08
 accel: 0.03
 health: 4000
