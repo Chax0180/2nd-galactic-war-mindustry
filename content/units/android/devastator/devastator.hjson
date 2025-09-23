@@ -15,8 +15,8 @@ shots: 2
 shotDelay: 10
 }
 shootSound: lasershoot
-x: 4
-y: 2
+x: 5
+y: 0
 top: false
 bullet: {
 type: BasicBulletType
