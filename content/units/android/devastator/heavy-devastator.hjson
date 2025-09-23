@@ -5,6 +5,7 @@ speed: 0.3
 health: 800
 hitSize: 16
 outlineColor: 37383d
+crushDamage: 0.5
 weapons: [
 {
 name: heavy-devastator-mg
@@ -45,6 +46,7 @@ y: 2
 shootx: 5
 top: false
 mirror: false
+noAttack: true
 bullet: {
 type: BasicBulletType
 width: 18
